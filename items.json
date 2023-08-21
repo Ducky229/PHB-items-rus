@@ -349,6 +349,8 @@
 		{
 			"name": "Зелье лечения",
 			"source": "DMG",
+			"page": 151,
+			"srd": true,
 			"basicRules": true,
 			"type": "P",
 			"rarity": "common",
@@ -361,6 +363,9 @@
 		{
 			"name": "Зелье большого лечения",
 			"source": "DMG",
+			"page": 151,
+			"srd": true,
+			"basicRules": true,
 			"type": "P",
 			"rarity": "uncommon",
 			"weight": 2,
@@ -372,6 +377,9 @@
 		{
 			"name": "Зелье отличного лечения",
 			"source": "DMG",
+			"page": 151,
+			"srd": true,
+			"basicRules": true,
 			"type": "P",
 			"rarity": "rare",
 			"weight": 4,
@@ -383,6 +391,9 @@
 		{
 			"name": "Зелье превосходного лечения",
 			"source": "DMG",
+			"page": 151,
+			"srd": true,
+			"basicRules": true,
 			"type": "P",
 			"rarity": "very rare",
 			"weight": 8,
