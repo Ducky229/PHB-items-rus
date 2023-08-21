@@ -348,14 +348,11 @@
 		},
 		{
 			"name": "Зелье лечения",
-			"source": "PHB",
-			"page": 151,
-			"srd": true,
-			"basicRules": true,
-			"type": "G",
+			"source": "DMG",
+			"type": "P",
 			"rarity": "common",
 			"weight": 1,
-			"value": 25,
+			"value": 2500,
 			"entries": [
 				"Вы восстанавливаете хиты, когда выпиваете это зелье. Количество восстанавливаемых хитов 2к4 + 2. Зелье представляет собой красную жидкость, сверкающую при встряхивании."
 			]
@@ -363,13 +360,10 @@
 		{
 			"name": "Зелье большого лечения",
 			"source": "DMG",
-			"page": 151,
-			"srd": true,
-			"basicRules": true,
 			"type": "P",
 			"rarity": "uncommon",
 			"weight": 2,
-			"value": 51,
+			"value": 5100,
 			"entries": [
 				"Вы восстанавливаете хиты, когда выпиваете это зелье. Количество восстанавливаемых хитов 4к4 + 4. Зелье представляет собой красную жидкость, сверкающую при встряхивании."
 			]
@@ -377,13 +371,10 @@
 		{
 			"name": "Зелье отличного лечения",
 			"source": "DMG",
-			"page": 151,
-			"srd": true,
-			"basicRules": true,
 			"type": "P",
 			"rarity": "rare",
 			"weight": 4,
-			"value": 251,
+			"value": 25100,
 			"entries": [
 				"Вы восстанавливаете хиты, когда выпиваете это зелье. Количество восстанавливаемых хитов 8к4 + 8. Зелье представляет собой красную жидкость, сверкающую при встряхивании."
 			]
@@ -391,13 +382,10 @@
 		{
 			"name": "Зелье превосходного лечения",
 			"source": "DMG",
-			"page": 151,
-			"srd": true,
-			"basicRules": true,
 			"type": "P",
 			"rarity": "very rare",
 			"weight": 8,
-			"value": 2501,
+			"value": 250100,
 			"entries": [
 				"Вы восстанавливаете хиты, когда выпиваете это зелье. Количество восстанавливаемых хитов 10к4 + 20. Зелье представляет собой красную жидкость, сверкающую при встряхивании."
 			]
@@ -495,7 +483,7 @@
 			]
 		},
 		{
-			"name": "Bucket",
+			"name": "Ведро",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -505,11 +493,11 @@
 			"weight": 2,
 			"value": 5,
 			"entries": [
-				"A bucket holds 3 gallons of liquid or ½ cubic foot of solids."
+				"Вместимость:  3 галлона (11 лит.), 0,5 кубических футов"
 			]
 		},
 		{
-			"name": "Bullseye Lantern",
+			"name": "Фонарь, направленный",
 			"source": "PHB",
 			"page": 152,
 			"srd": true,
@@ -519,11 +507,11 @@
 			"weight": 2,
 			"value": 1000,
 			"entries": [
-				"A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."
+				"Направленный фонарь испускает яркий свет 60-футовым конусом и тусклый свет в пределах ещё 60 футов. Зажжённый фонарь горит 6 часов от одной фляги (1 пинта [0,5 литра]) масла."
 			]
 		},
 		{
-			"name": "Burglar's Pack",
+			"name": "Набор взломщика",
 			"source": "PHB",
 			"page": 151,
 			"srd": true,
@@ -533,56 +521,56 @@
 			"weight": 44.5,
 			"value": 1600,
 			"entries": [
-				"Includes:",
+				"Набор взломщика включает в себя::",
 				{
 					"type": "list",
 					"items": [
-						"a {@item backpack|phb}",
-						"a {@item Ball Bearings (Bag of 1,000)|phb|bag of 1,000 ball bearings}",
-						"10 feet of string",
-						"a {@item bell|phb}",
-						"5 {@item candle|phb|candles}",
-						"a {@item crowbar|phb}",
-						"a {@item hammer|phb}",
-						"10 {@item piton|phb|pitons}",
-						"a {@item hooded lantern|phb}",
-						"2 {@item Oil (flask)|phb|flasks of oil}",
-						"5 days {@item Rations (1 day)|phb|rations}",
-						"a {@item tinderbox|phb}",
-						"a {@item waterskin|phb}",
-						"{@item Hempen Rope (50 feet)|phb|50 feet of hempen rope}"
+						"{@item Рюкзак|phb}",
+						"{@item Металлические шарики (сумка с 1000 шт.)|phb|сумку с металлическими шариками}",
+						"10 футов лески",
+						"a {@item Колокольчик|phb}",
+						"5 {@item Свечка|phb|Свечек}",
+						"a {@item Ломик|phb}",
+						"a {@item Молоток|phb}",
+						"10 {@item Шлямбур|phb|Шлямбуров}",
+						"a {@item Закрытый фонарь|phb}",
+						"2 {@item Масло (фляга)|phb|фляги масла}",
+						"{@item Рацион (1 день)|phb|Рационов} на 5 дней",
+						"{@item Трутница|phb|Трутницу}",
+						"{@item Бурдюк|phb}",
+						"и {@item Верёвка пеньковая (50 футов)|phb|50 футов пеньковой верёвки}"
 					]
 				}
 			],
 			"packContents": [
-				"backpack|phb",
-				"ball bearings (bag of 1,000)|phb",
+				"Рюкзак|phb",
+				"Металлические шарики (сумка с 1000 шт.)|phb",
 				{
-					"special": "10 feet of string"
+					"special": "10 футов лески"
 				},
-				"bell|phb",
+				"Колокольчик|phb",
 				{
-					"item": "candle|phb",
+					"item": "Свечка|phb",
 					"quantity": 5
 				},
-				"crowbar|phb",
-				"hammer|phb",
+				"Ломик|phb",
+				"Молоток|phb",
 				{
-					"item": "piton|phb",
+					"item": "Шлямбур|phb",
 					"quantity": 10
 				},
 				"hooded lantern|phb",
 				{
-					"item": "oil (flask)|phb",
+					"item": "Масло (фляга)|phb",
 					"quantity": 2
 				},
 				{
-					"item": "rations (1 day)|phb",
+					"item": "Рацион (1 день)|phb",
 					"quantity": 5
 				},
-				"tinderbox|phb",
-				"waterskin|phb",
-				"hempen rope (50 feet)|phb"
+				"Трутница|phb",
+				"Бурдюк|phb",
+				"Верёвка пеньковая (50 футов)|phb"
 			]
 		},
 		{
