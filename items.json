@@ -574,7 +574,7 @@
 			]
 		},
 		{
-			"name": "Calligrapher's Supplies",
+			"name": "Инструменты каллиграфа",
 			"source": "PHB",
 			"page": 154,
 			"srd": true,
@@ -590,41 +590,41 @@
 			"weight": 5,
 			"value": 1000,
 			"additionalEntries": [
-				"Calligraphy treats writing as a delicate, beautiful art. Calligraphers produce text that is pleasing to the eye, using a style that is difficult to forge. Their supplies also give them some ability to examine scripts and determine if they are legitimate, since a calligrapher's training involves long hours of studying writing and attempting to replicate its style and design.",
+				"Каллиграфия трактует письмо как прекрасное утончённое искусство. Каллиграфы создают текст, который радует глаз, используя стиль, который сложно подделать. Их инструменты также дают им возможность исследовать рукописный текст и определить его подлинность, поскольку обучение каллиграфа включало в себя множество часов обучения письму и попыток повторить его стиль и оформление.",
 				{
 					"type": "entries",
-					"name": "Components",
+					"name": "Компоненты",
 					"entries": [
-						"Calligrapher's supplies include ink, a dozen sheets of parchment, and three quills."
+						"Инструменты каллиграфа включают в себя чернила, множество пергаментных листов и три писчих пера."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Arcana",
+					"name": "Магия",
 					"entries": [
-						"Although calligraphy is of little help in deciphering the content of magical writings, proficiency with these supplies can aid in identifying who wrote a script of a magical nature."
+						"Хотя каллиграфия мало помогает в расшифровке содержимого магического текста, владение этими инструментами помогает определить, кто написал магический текст."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "History",
+					"name": "История",
 					"entries": [
-						"This tool proficiency can augment the benefit of successful checks made to analyze or investigate ancient writings, scrolls, or other texts, including runes etched in stone or messages in frescoes or other displays."
+						"Владение этими инструментами может увеличить выгоду при успешной проверке, совершаемой для анализа или исследования древних записей, свитков или другого текста, включая руны, вырезанные на камне, а также письмена на фресках или других изображениях."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Decipher Treasure Map",
+					"name": "Расшифровка карты сокровищ",
 					"entries": [
-						"This tool proficiency grants you expertise in examining maps. You can make an Intelligence check to determine a map's age, whether a map includes any hidden messages, or similar facts."
+						"Владение этими инструментами позволяет вам проводить экспертизу карт. Вы можете пройти проверку Интеллекта, чтобы оценить возраст карты, определить, содержит ли карта скрытое послание, и так далее."
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Calligrapher's Supplies",
+					"caption": "Инструменты каллиграфа",
 					"colLabels": [
-						"Activity",
-						"DC"
+						"Действие",
+						"Сложность"
 					],
 					"colStyles": [
 						"col-6",
@@ -632,19 +632,19 @@
 					],
 					"rows": [
 						[
-							"Identify writer of nonmagical script",
+							"Опознать писавшего немагический рукописный текст",
 							"10"
 						],
 						[
-							"Determine writer's state of mind",
+							"Определить душевное состояние писавшего",
 							"15"
 						],
 						[
-							"Spot forged text",
+							"Распознать поддельный текст",
 							"15"
 						],
 						[
-							"Forge a signature",
+							"Подделать подпись",
 							"20"
 						]
 					]
@@ -652,7 +652,7 @@
 			]
 		},
 		{
-			"name": "Caltrop",
+			"name": "Калтроп",
 			"source": "PHB",
 			"page": 151,
 			"srd": true,
@@ -662,11 +662,11 @@
 			"weight": 0.1,
 			"value": 5,
 			"entries": [
-				"As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw."
+				"Вы можете действием рассыпать сумку калтропов по площади в 5 × 5 футов. Все существа, входящие в эту область, должны преуспеть в спасброске Ловкости со Сл 15, иначе они останавливаются и получают колющий урон 1. Пока это существо не восстановит как минимум 1 хит, его скорость ходьбы уменьшена на 10 футов. Существо, перемещающееся по этой области с уменьшенной вдвое скоростью, не обязано совершать спасбросок."
 			]
 		},
 		{
-			"name": "Caltrops (bag of 20)",
+			"name": "Калтропы (сумка 20 шт.)",
 			"source": "PHB",
 			"page": 151,
 			"srd": true,
@@ -676,18 +676,18 @@
 			"weight": 2,
 			"value": 100,
 			"entries": [
-				"As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw."
+				"Вы можете действием рассыпать сумку калтропов по площади в 5 × 5 футов. Все существа, входящие в эту область, должны преуспеть в спасброске Ловкости со Сл 15, иначе они останавливаются и получают колющий урон 1. Пока это существо не восстановит как минимум 1 хит, его скорость ходьбы уменьшена на 10 футов. Существо, перемещающееся по этой области с уменьшенной вдвое скоростью, не обязано совершать спасбросок."
 			],
 			"packContents": [
 				{
-					"item": "caltrop|phb",
+					"item": "Калтроп|phb",
 					"quantity": 20
 				}
 			],
 			"atomicPackContents": true
 		},
 		{
-			"name": "Camel",
+			"name": "Верблюд",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -699,7 +699,7 @@
 			"speed": 50
 		},
 		{
-			"name": "Candle",
+			"name": "Свеча",
 			"source": "PHB",
 			"page": 151,
 			"srd": true,
@@ -708,7 +708,7 @@
 			"rarity": "none",
 			"value": 1,
 			"entries": [
-				"For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet."
+				"В течение 1 часа свеча испускает яркий свет в пределах радиуса 5 футов и тусклый свет в пределах ещё 5 футов."
 			]
 		},
 		{
