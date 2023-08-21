@@ -348,11 +348,11 @@
 		},
 		{
 			"name": "Зелье лечения",
-			"source": "DMG",
+			"source": "PHB",
 			"page": 151,
 			"srd": true,
 			"basicRules": true,
-			"type": "P",
+			"type": "G",
 			"rarity": "common",
 			"weight": 1,
 			"value": 25,
