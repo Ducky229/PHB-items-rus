@@ -1,819 +1,797 @@
 {
-	"_meta": {
-		"internalCopies": [
-			"item"
-		]
-	},
-	"item": [
-
-        {
-            "name": "Battleaxe",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 4,
-            "value": 1000,
-            "weaponCategory": "martial",
-            "property": [
-                "V"
-            ],
-            "dmg1": "1d8",
-            "dmgType": "S",
-            "dmg2": "1d10",
-            "axe": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Blowgun",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "R",
-            "rarity": "none",
-            "weight": 1,
-            "value": 1000,
-            "weaponCategory": "martial",
-            "property": [
-                "A",
-                "LD"
-            ],
-            "range": "25/100",
-            "dmg1": "1",
-            "dmgType": "P",
-            "weapon": true,
-            "ammoType": "blowgun needle|phb",
-            "entries": []
-        },
-        {
-            "name": "Club",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 2,
-            "value": 10,
-            "weaponCategory": "simple",
-            "property": [
-                "L"
-            ],
-            "dmg1": "1d4",
-            "dmgType": "B",
-            "club": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Dagger",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 1,
-            "value": 200,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "dagger": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Dart",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "R",
-            "rarity": "none",
-            "weight": 0.25,
-            "value": 5,
-            "weaponCategory": "simple",
-            "property": [
-                "F",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "P",
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Flail",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 2,
-            "value": 1000,
-            "weaponCategory": "martial",
-            "dmg1": "1d8",
-            "dmgType": "B",
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Glaive",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 6,
-            "value": 2000,
-            "weaponCategory": "martial",
-            "property": [
-                "H",
-                "R",
-                "2H"
-            ],
-            "dmg1": "1d10",
-            "dmgType": "S",
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Greataxe",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 7,
-            "value": 3000,
-            "weaponCategory": "martial",
-            "property": [
-                "H",
-                "2H"
-            ],
-            "dmg1": "1d12",
-            "dmgType": "S",
-            "axe": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Greatclub",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 10,
-            "value": 20,
-            "weaponCategory": "simple",
-            "property": [
-                "2H"
-            ],
-            "dmg1": "1d8",
-            "dmgType": "B",
-            "club": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Greatsword",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 6,
-            "value": 5000,
-            "weaponCategory": "martial",
-            "property": [
-                "H",
-                "2H"
-            ],
-            "dmg1": "2d6",
-            "dmgType": "S",
-            "sword": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Halberd",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 6,
-            "value": 2000,
-            "weaponCategory": "martial",
-            "property": [
-                "H",
-                "R",
-                "2H"
-            ],
-            "dmg1": "1d10",
-            "dmgType": "S",
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Hand Crossbow",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "R",
-            "rarity": "none",
-            "weight": 3,
-            "value": 7500,
-            "weaponCategory": "martial",
-            "property": [
-                "A",
-                "L",
-                "LD"
-            ],
-            "range": "30/120",
-            "dmg1": "1d6",
-            "dmgType": "P",
-            "crossbow": true,
-            "weapon": true,
-            "ammoType": "crossbow bolt|phb",
-            "entries": []
-        },
-        {
-            "name": "Handaxe",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 2,
-            "value": 500,
-            "weaponCategory": "simple",
-            "property": [
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d6",
-            "dmgType": "S",
-            "axe": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Heavy Crossbow",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "R",
-            "rarity": "none",
-            "weight": 18,
-            "value": 5000,
-            "weaponCategory": "martial",
-            "property": [
-                "A",
-                "H",
-                "LD",
-                "2H"
-            ],
-            "range": "100/400",
-            "dmg1": "1d10",
-            "dmgType": "P",
-            "crossbow": true,
-            "weapon": true,
-            "ammoType": "crossbow bolt|phb",
-            "entries": []
-        },
-        {
-            "name": "Javelin",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 2,
-            "value": 50,
-            "weaponCategory": "simple",
-            "property": [
-                "T"
-            ],
-            "range": "30/120",
-            "dmg1": "1d6",
-            "dmgType": "P",
-            "spear": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Lance",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 6,
-            "value": 1000,
-            "weaponCategory": "martial",
-            "property": [
-                "R",
-                "S"
-            ],
-            "dmg1": "1d12",
-            "dmgType": "P",
-            "weapon": true,
+    "_meta": {
+      "internalCopies": [
+        "item"
+      ]
+    },
+    "item": [
+      {
+        "name": "Алебарда",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 6,
+        "value": 2000,
+        "weaponCategory": "martial",
+        "property": [
+          "H",
+          "R",
+          "2H"
+        ],
+        "dmg1": "1d10",
+        "dmgType": "S",
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Арбалет, лёгкий",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "R",
+        "rarity": "none",
+        "weight": 5,
+        "value": 2500,
+        "weaponCategory": "simple",
+        "property": [
+          "A",
+          "LD",
+          "2H"
+        ],
+        "range": "80/320",
+        "dmg1": "1d8",
+        "dmgType": "P",
+        "crossbow": true,
+        "weapon": true,
+        "ammoType": "crossbow bolt|phb",
+        "entries": []
+      },
+      {
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "R",
+        "rarity": "none",
+        "weight": 3,
+        "value": 7500,
+        "weaponCategory": "martial",
+        "property": [
+          "A",
+          "L",
+          "LD"
+        ],
+        "range": "30/120",
+        "dmg1": "1d6",
+        "dmgType": "P",
+        "crossbow": true,
+        "weapon": true,
+        "ammoType": "crossbow bolt|phb",
+        "entries": [],
+        "name": "Арбалет, ручной"
+      },
+      {
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "R",
+        "rarity": "none",
+        "weight": 18,
+        "value": 5000,
+        "weaponCategory": "martial",
+        "property": [
+          "A",
+          "H",
+          "LD",
+          "2H"
+        ],
+        "range": "100/400",
+        "dmg1": "1d10",
+        "dmgType": "P",
+        "crossbow": true,
+        "weapon": true,
+        "ammoType": "crossbow bolt|phb",
+        "entries": [],
+        "name": "Арбалет, тяжёлый"
+      },
+      {
+        "name": "Боевая кирка",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 2,
+        "value": 500,
+        "weaponCategory": "martial",
+        "dmg1": "1d8",
+        "dmgType": "P",
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Боевой молот",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 2,
+        "value": 1500,
+        "weaponCategory": "martial",
+        "property": [
+          "V"
+        ],
+        "dmg1": "1d8",
+        "dmgType": "B",
+        "dmg2": "1d10",
+        "hammer": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Боевой посох",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 4,
+        "value": 20,
+        "weaponCategory": "simple",
+        "property": [
+          "V"
+        ],
+        "dmg1": "1d6",
+        "dmgType": "B",
+        "dmg2": "1d8",
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Боевой топор",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 4,
+        "value": 1000,
+        "weaponCategory": "martial",
+        "property": [
+          "V"
+        ],
+        "dmg1": "1d8",
+        "dmgType": "S",
+        "dmg2": "1d10",
+        "axe": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Булава",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 4,
+        "value": 500,
+        "weaponCategory": "simple",
+        "dmg1": "1d6",
+        "dmgType": "B",
+        "mace": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Глефа",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 6,
+        "value": 2000,
+        "weaponCategory": "martial",
+        "property": [
+          "H",
+          "R",
+          "2H"
+        ],
+        "dmg1": "1d10",
+        "dmgType": "S",
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Двуручный меч",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 6,
+        "value": 5000,
+        "weaponCategory": "martial",
+        "property": [
+          "H",
+          "2H"
+        ],
+        "dmg1": "2d6",
+        "dmgType": "S",
+        "sword": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Длинное копьё",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 6,
+        "value": 1000,
+        "weaponCategory": "martial",
+        "property": [
+          "R",
+          "S"
+        ],
+        "dmg1": "1d12",
+        "dmgType": "P",
+        "weapon": true,
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Special",
             "entries": [
-                {
-                    "type": "entries",
-                    "name": "Special",
-                    "entries": [
-                        "You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
-                    ]
-                }
+              "You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
             ]
-        },
-        {
-            "name": "Light Crossbow",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "R",
-            "rarity": "none",
-            "weight": 5,
-            "value": 2500,
-            "weaponCategory": "simple",
-            "property": [
-                "A",
-                "LD",
-                "2H"
-            ],
-            "range": "80/320",
-            "dmg1": "1d8",
-            "dmgType": "P",
-            "crossbow": true,
-            "weapon": true,
-            "ammoType": "crossbow bolt|phb",
-            "entries": []
-        },
-        {
-            "name": "Light Hammer",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 2,
-            "value": 200,
-            "weaponCategory": "simple",
-            "property": [
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "dmg1": "1d4",
-            "dmgType": "B",
-            "hammer": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Longbow",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "R",
-            "rarity": "none",
-            "weight": 2,
-            "value": 5000,
-            "weaponCategory": "martial",
-            "property": [
-                "A",
-                "H",
-                "2H"
-            ],
-            "range": "150/600",
-            "dmg1": "1d8",
-            "dmgType": "P",
-            "bow": true,
-            "weapon": true,
-            "ammoType": "arrow|phb",
-            "entries": []
-        },
-        {
-            "name": "Mace",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 4,
-            "value": 500,
-            "weaponCategory": "simple",
-            "dmg1": "1d6",
-            "dmgType": "B",
-            "mace": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Maul",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 10,
-            "value": 1000,
-            "weaponCategory": "martial",
-            "property": [
-                "H",
-                "2H"
-            ],
-            "dmg1": "2d6",
-            "dmgType": "B",
-            "hammer": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Morningstar",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 4,
-            "value": 1500,
-            "weaponCategory": "martial",
-            "dmg1": "1d8",
-            "dmgType": "P",
-            "mace": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Net",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "R",
-            "rarity": "none",
-            "weight": 3,
-            "value": 100,
-            "weaponCategory": "martial",
-            "property": [
-                "S",
-                "T"
-            ],
-            "range": "5/15",
-            "net": true,
-            "weapon": true,
+          }
+        ]
+      },
+      {
+        "name": "Длинный лук",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "R",
+        "rarity": "none",
+        "weight": 2,
+        "value": 5000,
+        "weaponCategory": "martial",
+        "property": [
+          "A",
+          "H",
+          "2H"
+        ],
+        "range": "150/600",
+        "dmg1": "1d8",
+        "dmgType": "P",
+        "bow": true,
+        "weapon": true,
+        "ammoType": "arrow|phb",
+        "entries": []
+      },
+      {
+        "name": "Длинный меч",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 3,
+        "value": 1500,
+        "weaponCategory": "martial",
+        "property": [
+          "V"
+        ],
+        "dmg1": "1d8",
+        "dmgType": "S",
+        "dmg2": "1d10",
+        "sword": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "R",
+        "rarity": "none",
+        "weight": 0.25,
+        "value": 5,
+        "weaponCategory": "simple",
+        "property": [
+          "F",
+          "T"
+        ],
+        "range": "20/60",
+        "dmg1": "1d4",
+        "dmgType": "P",
+        "weapon": true,
+        "entries": [],
+        "name": "Дротик"
+      },
+      {
+        "name": "Дубинка",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 2,
+        "value": 10,
+        "weaponCategory": "simple",
+        "property": [
+          "L"
+        ],
+        "dmg1": "1d4",
+        "dmgType": "B",
+        "club": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Духовая трубка",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "R",
+        "rarity": "none",
+        "weight": 1,
+        "value": 1000,
+        "weaponCategory": "martial",
+        "property": [
+          "A",
+          "LD"
+        ],
+        "range": "25/100",
+        "dmg1": "1",
+        "dmgType": "P",
+        "weapon": true,
+        "ammoType": "blowgun needle|phb",
+        "entries": []
+      },
+      {
+        "name": "Кинжал",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 1,
+        "value": 200,
+        "weaponCategory": "simple",
+        "property": [
+          "F",
+          "L",
+          "T"
+        ],
+        "range": "20/60",
+        "dmg1": "1d4",
+        "dmgType": "P",
+        "dagger": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Кнут",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 3,
+        "value": 200,
+        "weaponCategory": "martial",
+        "property": [
+          "F",
+          "R"
+        ],
+        "dmg1": "1d4",
+        "dmgType": "S",
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Копьё",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 3,
+        "value": 100,
+        "weaponCategory": "simple",
+        "property": [
+          "T",
+          "V"
+        ],
+        "range": "20/60",
+        "dmg1": "1d6",
+        "dmgType": "P",
+        "dmg2": "1d8",
+        "spear": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Короткий лук",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "R",
+        "rarity": "none",
+        "weight": 2,
+        "value": 2500,
+        "weaponCategory": "simple",
+        "property": [
+          "A",
+          "2H"
+        ],
+        "range": "80/320",
+        "dmg1": "1d6",
+        "dmgType": "P",
+        "bow": true,
+        "weapon": true,
+        "ammoType": "arrow|phb",
+        "entries": []
+      },
+      {
+        "name": "Короткий меч",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 2,
+        "value": 1000,
+        "weaponCategory": "martial",
+        "property": [
+          "F",
+          "L"
+        ],
+        "dmg1": "1d6",
+        "dmgType": "P",
+        "sword": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Лёгкий молот",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 2,
+        "value": 200,
+        "weaponCategory": "simple",
+        "property": [
+          "L",
+          "T"
+        ],
+        "range": "20/60",
+        "dmg1": "1d4",
+        "dmgType": "B",
+        "hammer": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Метательное копьё",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 2,
+        "value": 50,
+        "weaponCategory": "simple",
+        "property": [
+          "T"
+        ],
+        "range": "30/120",
+        "dmg1": "1d6",
+        "dmgType": "P",
+        "spear": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Молот",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 10,
+        "value": 1000,
+        "weaponCategory": "martial",
+        "property": [
+          "H",
+          "2H"
+        ],
+        "dmg1": "2d6",
+        "dmgType": "B",
+        "hammer": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Моргенштерн",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 4,
+        "value": 1500,
+        "weaponCategory": "martial",
+        "dmg1": "1d8",
+        "dmgType": "P",
+        "mace": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Палица",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 10,
+        "value": 20,
+        "weaponCategory": "simple",
+        "property": [
+          "2H"
+        ],
+        "dmg1": "1d8",
+        "dmgType": "B",
+        "club": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Пика",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 18,
+        "value": 500,
+        "weaponCategory": "martial",
+        "property": [
+          "H",
+          "R",
+          "2H"
+        ],
+        "dmg1": "1d10",
+        "dmgType": "P",
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Праща",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "R",
+        "rarity": "none",
+        "value": 10,
+        "weaponCategory": "simple",
+        "property": [
+          "A"
+        ],
+        "range": "30/120",
+        "dmg1": "1d4",
+        "dmgType": "B",
+        "weapon": true,
+        "ammoType": "sling bullet|phb",
+        "entries": []
+      },
+      {
+        "name": "Рапира",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 2,
+        "value": 2500,
+        "weaponCategory": "martial",
+        "property": [
+          "F"
+        ],
+        "dmg1": "1d8",
+        "dmgType": "P",
+        "sword": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Ручной топор",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 2,
+        "value": 500,
+        "weaponCategory": "simple",
+        "property": [
+          "L",
+          "T"
+        ],
+        "range": "20/60",
+        "dmg1": "1d6",
+        "dmgType": "S",
+        "axe": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Секира",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 7,
+        "value": 3000,
+        "weaponCategory": "martial",
+        "property": [
+          "H",
+          "2H"
+        ],
+        "dmg1": "1d12",
+        "dmgType": "S",
+        "axe": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Серп",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 2,
+        "value": 100,
+        "weaponCategory": "simple",
+        "property": [
+          "L"
+        ],
+        "dmg1": "1d4",
+        "dmgType": "S",
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Сеть",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "R",
+        "rarity": "none",
+        "weight": 3,
+        "value": 100,
+        "weaponCategory": "martial",
+        "property": [
+          "S",
+          "T"
+        ],
+        "range": "5/15",
+        "net": true,
+        "weapon": true,
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Special",
             "entries": [
-                {
-                    "type": "entries",
-                    "name": "Special",
-                    "entries": [
-                        "A Large or smaller creature hit by a net is {@condition restrained} until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
-                    ]
-                }
+              "A Large or smaller creature hit by a net is {@condition restrained} until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
             ]
-        },
-        {
-            "name": "Pike",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 18,
-            "value": 500,
-            "weaponCategory": "martial",
-            "property": [
-                "H",
-                "R",
-                "2H"
-            ],
-            "dmg1": "1d10",
-            "dmgType": "P",
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Quarterstaff",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 4,
-            "value": 20,
-            "weaponCategory": "simple",
-            "property": [
-                "V"
-            ],
-            "dmg1": "1d6",
-            "dmgType": "B",
-            "dmg2": "1d8",
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Rapier",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 2,
-            "value": 2500,
-            "weaponCategory": "martial",
-            "property": [
-                "F"
-            ],
-            "dmg1": "1d8",
-            "dmgType": "P",
-            "sword": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Scimitar",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 3,
-            "value": 2500,
-            "weaponCategory": "martial",
-            "property": [
-                "F",
-                "L"
-            ],
-            "dmg1": "1d6",
-            "dmgType": "S",
-            "sword": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Shortbow",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "R",
-            "rarity": "none",
-            "weight": 2,
-            "value": 2500,
-            "weaponCategory": "simple",
-            "property": [
-                "A",
-                "2H"
-            ],
-            "range": "80/320",
-            "dmg1": "1d6",
-            "dmgType": "P",
-            "bow": true,
-            "weapon": true,
-            "ammoType": "arrow|phb",
-            "entries": []
-        },
-        {
-            "name": "Shortsword",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 2,
-            "value": 1000,
-            "weaponCategory": "martial",
-            "property": [
-                "F",
-                "L"
-            ],
-            "dmg1": "1d6",
-            "dmgType": "P",
-            "sword": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Sickle",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 2,
-            "value": 100,
-            "weaponCategory": "simple",
-            "property": [
-                "L"
-            ],
-            "dmg1": "1d4",
-            "dmgType": "S",
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Sling",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "R",
-            "rarity": "none",
-            "value": 10,
-            "weaponCategory": "simple",
-            "property": [
-                "A"
-            ],
-            "range": "30/120",
-            "dmg1": "1d4",
-            "dmgType": "B",
-            "weapon": true,
-            "ammoType": "sling bullet|phb",
-            "entries": []
-        },
-        {
-            "name": "Spear",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 3,
-            "value": 100,
-            "weaponCategory": "simple",
-            "property": [
-                "T",
-                "V"
-            ],
-            "range": "20/60",
-            "dmg1": "1d6",
-            "dmgType": "P",
-            "dmg2": "1d8",
-            "spear": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Staff",
-            "source": "PHB",
-            "page": 151,
-            "srd": true,
-            "basicRules": true,
-            "type": "SCF",
-            "scfType": "arcane",
-            "rarity": "none",
-            "weight": 4,
-            "value": 500,
-            "weaponCategory": "simple",
-            "property": [
-                "V"
-            ],
-            "dmg1": "1d6",
-            "dmgType": "B",
-            "dmg2": "1d8",
-            "staff": true,
-            "entries": []
-        },
-        {
-            "name": "Trident",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 4,
-            "value": 500,
-            "weaponCategory": "martial",
-            "property": [
-                "T",
-                "V"
-            ],
-            "range": "20/60",
-            "dmg1": "1d6",
-            "dmgType": "P",
-            "dmg2": "1d8",
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "War Pick",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 2,
-            "value": 500,
-            "weaponCategory": "martial",
-            "dmg1": "1d8",
-            "dmgType": "P",
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Warhammer",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 2,
-            "value": 1500,
-            "weaponCategory": "martial",
-            "property": [
-                "V"
-            ],
-            "dmg1": "1d8",
-            "dmgType": "B",
-            "dmg2": "1d10",
-            "hammer": true,
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Whip",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 3,
-            "value": 200,
-            "weaponCategory": "martial",
-            "property": [
-                "F",
-                "R"
-            ],
-            "dmg1": "1d4",
-            "dmgType": "S",
-            "weapon": true,
-            "entries": []
-        },
-        {
-            "name": "Longsword",
-            "source": "PHB",
-            "page": 149,
-            "srd": true,
-            "basicRules": true,
-            "type": "M",
-            "rarity": "none",
-            "weight": 3,
-            "value": 1500,
-            "weaponCategory": "martial",
-            "property": [
-                "V"
-            ],
-            "dmg1": "1d8",
-            "dmgType": "S",
-            "dmg2": "1d10",
-            "sword": true,
-            "weapon": true,
-            "entries": []
-        }
-	]
-}
+          }
+        ]
+      },
+      {
+        "name": "Скимитар",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 3,
+        "value": 2500,
+        "weaponCategory": "martial",
+        "property": [
+          "F",
+          "L"
+        ],
+        "dmg1": "1d6",
+        "dmgType": "S",
+        "sword": true,
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Трезубец",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 4,
+        "value": 500,
+        "weaponCategory": "martial",
+        "property": [
+          "T",
+          "V"
+        ],
+        "range": "20/60",
+        "dmg1": "1d6",
+        "dmgType": "P",
+        "dmg2": "1d8",
+        "weapon": true,
+        "entries": []
+      },
+      {
+        "name": "Цеп",
+        "source": "PHB",
+        "page": 149,
+        "srd": true,
+        "basicRules": true,
+        "type": "M",
+        "rarity": "none",
+        "weight": 2,
+        "value": 1000,
+        "weaponCategory": "martial",
+        "dmg1": "1d8",
+        "dmgType": "B",
+        "weapon": true,
+        "entries": []
+      }
+    ]
+  }
