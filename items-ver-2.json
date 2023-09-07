@@ -1,0 +1,1968 @@
+{
+  "_meta": {
+    "internalCopies": [
+      "item"
+    ]
+  },
+  "item": [
+    {
+      "name": "Фляга",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 2
+    },
+    {
+      "source": "PHB",
+      "page": 152,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 2,
+      "value": 500,
+      "name": "Фонарь, закрытый"
+    },
+    {
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 4,
+      "value": 2,
+      "name": "Кувшин"
+    },
+    {
+      "name": "Замок",
+      "source": "PHB",
+      "page": 152,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 1000
+    },
+    {
+      "name": "Лампа",
+      "source": "PHB",
+      "page": 152,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 50
+    },
+    {
+      "name": "Седло, военное",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TAH",
+      "rarity": "none",
+      "weight": 30,
+      "value": 2000
+    },
+    {
+      "name": "Торговые весы",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 3,
+      "value": 500
+    },
+    {
+      "name": "Седло, экзотическое",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TAH",
+      "rarity": "none",
+      "weight": 40,
+      "value": 6000
+    },
+    {
+      "name": "Святая вода (фляга)",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 2500
+    },
+    {
+      "name": "Чернила",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 1000
+    },
+    {
+      "name": "Масло (фляга)",
+      "source": "PHB",
+      "page": 152,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 10
+    },
+    {
+      "name": "Кандалы",
+      "source": "PHB",
+      "page": 152,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 6,
+      "value": 200
+    },
+    {
+      "name": "Контейнер для карт и свитков",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 100,
+      "containerCapacity": {}
+    },
+    {
+      "name": "Набор травника",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "T",
+      "rarity": "none",
+      "weight": 3,
+      "value": 500
+    },
+    {
+      "name": "Комплект для рыбалки",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 4,
+      "value": 100
+    },
+    {
+      "name": "Набор лекаря",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 3,
+      "value": 500
+    },
+    {
+      "name": "Увеличительное стекло",
+      "source": "PHB",
+      "page": 152,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 10000
+    },
+    {
+      "name": "Набор для грима",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "T",
+      "rarity": "none",
+      "weight": 3,
+      "value": 2500
+    },
+    {
+      "name": "Набор для фальсификации",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "T",
+      "rarity": "none",
+      "weight": 5,
+      "value": 1500
+    },
+    {
+      "name": "Столовый набор",
+      "source": "PHB",
+      "page": 152,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 20
+    },
+    {
+      "name": "Охотничий капкан",
+      "source": "PHB",
+      "page": 152,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 25,
+      "value": 500
+    },
+    {
+      "name": "Амулет",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "SCF",
+      "rarity": "none",
+      "weight": 1,
+      "value": 500,
+      "entries": [
+        "Амулет, изображающий символ божества или его символ. Жрец или паладин может использовать священный символ в качестве фокусировки для заклинаний."
+      ]
+    },
+    {
+      "name": "Кошель",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 50,
+      "entries": [
+        "В кожаном или тканевом кошеле поместится 20 снарядов для пращи или 50 иголок для духовой трубки, а также другие вещи. Кошель с отделениями для хранения компонентов заклинаний называется мешочком с компонентами. Вместимость: 0,2 кубических фута/6 фунтов (3 кг.)"
+      ],
+      "containerCapacity": {}
+    },
+    {
+      "name": "Колчан",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 100,
+      "entries": [
+        "В колчан помещается 20 {@item Стрела|phb|Стрел}."
+      ],
+      "containerCapacity": {}
+    },
+    {
+      "name": "Комплект для лазания",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 12,
+      "value": 2500,
+      "entries": [
+        "В набор для лазания входят шлямбуры, накладные подошвы, перчатки и страховочная привязь. Вы можете действием использовать набор для лазания, чтобы закрепиться на высоте; если вы делаете это, вы не можете упасть более чем на 25 футов от того места, где закрепились, но и не можете подняться выше 25 футов от этого места, не открепившись."
+      ]
+    },
+    {
+      "name": "Палатка, двухместная",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 20,
+      "value": 200,
+      "entries": [
+        "В палатке, простом парусиновом жилище, могут спать двое."
+      ]
+    },
+    {
+      "name": "Свеча",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 1,
+      "entries": [
+        "В течение 1 часа свеча испускает яркий свет в пределах радиуса 5 футов и тусклый свет в пределах ещё 5 футов."
+      ]
+    },
+    {
+      "name": "Трутница",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 50,
+      "entries": [
+        "В этом небольшом контейнере находится кремень, кресало и трут (обычно это сухая тряпка, вымоченная в масле), используемые для разжигания огня. Использование его для разжигания факела — или чего-нибудь другого, легковоспламеняющегося — требует одного действия. Разжигание другого огня требует 1 минуты."
+      ]
+    },
+    {
+      "name": "Контейнер для арбалетных болтов",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 100,
+      "entries": [
+        "В этот деревянный контейнер помещаются 20 арбалетных болтов."
+      ],
+      "containerCapacity": {}
+    },
+    {
+      "name": "Ведро",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 2,
+      "value": 5,
+      "entries": [
+        "Вместимость:  3 галлона (11 лит.), 0,5 кубических футов"
+      ]
+    },
+    {
+      "name": "Кувшин",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 4,
+      "value": 2,
+      "entries": [
+        "Вместимость: 1 галлон (4,5 Литра)"
+      ]
+    },
+    {
+      "name": "Мешок",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 0.5,
+      "value": 1,
+      "entries": [
+        "Вместимость: 1 кубический фут/30 фунтов (15 кг.)"
+      ],
+      "containerCapacity": {}
+    },
+    {
+      "name": "Рюкзак",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 5,
+      "value": 200,
+      "entries": [
+        "Вместимость: 1 кубический фут/30 фунтов (15 кг.). Вы также можете привязывать такие предметы как спальники и верёвки снаружи рюкзака."
+      ],
+      "containerCapacity": {}
+    },
+    {
+      "name": "Большая кружка",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 2,
+      "entries": [
+        "Вместимость: 1 пинта (0,5 лит.)"
+      ]
+    },
+    {
+      "name": "Сундук\n\t\t\t",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 25,
+      "value": 500,
+      "entries": [
+        "Вместимость: 12 кубических футов/300 фунтов (150 кг.)"
+      ],
+      "containerCapacity": {}
+    },
+    {
+      "name": "Корзина",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 2,
+      "value": 40,
+      "entries": [
+        "Вместимость: 2 кубических фута/40 фунтов (20 кг.)"
+      ],
+      "containerCapacity": {}
+    },
+    {
+      "name": "Бурдюк",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 5,
+      "value": 20,
+      "entries": [
+        "Вместимость: 4 пинты (2 лит.)"
+      ]
+    },
+    {
+      "name": "Флакон (пузырек)",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 100,
+      "entries": [
+        "Вместимость: 4 унции (100 грамм)"
+      ]
+    },
+    {
+      "name": "Бочка",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 70,
+      "value": 200,
+      "entries": [
+        "Вместимость: 40 галлонов (150 лит.), 4 кубических фута"
+      ]
+    },
+    {
+      "name": "Зелье превосходного лечения",
+      "source": "DMG",
+      "type": "P",
+      "rarity": "very rare",
+      "weight": 8,
+      "value": 250100,
+      "entries": [
+        "Вы восстанавливаете хиты, когда выпиваете это зелье. Количество восстанавливаемых хитов 10к4 + 20. Зелье представляет собой красную жидкость, сверкающую при встряхивании."
+      ]
+    },
+    {
+      "name": "Зелье лечения",
+      "source": "DMG",
+      "type": "P",
+      "rarity": "common",
+      "weight": 1,
+      "value": 2500,
+      "entries": [
+        "Вы восстанавливаете хиты, когда выпиваете это зелье. Количество восстанавливаемых хитов 2к4 + 2. Зелье представляет собой красную жидкость, сверкающую при встряхивании."
+      ]
+    },
+    {
+      "name": "Зелье большого лечения",
+      "source": "DMG",
+      "type": "P",
+      "rarity": "uncommon",
+      "weight": 2,
+      "value": 5100,
+      "entries": [
+        "Вы восстанавливаете хиты, когда выпиваете это зелье. Количество восстанавливаемых хитов 4к4 + 4. Зелье представляет собой красную жидкость, сверкающую при встряхивании."
+      ]
+    },
+    {
+      "name": "Зелье отличного лечения",
+      "source": "DMG",
+      "type": "P",
+      "rarity": "rare",
+      "weight": 4,
+      "value": 25100,
+      "entries": [
+        "Вы восстанавливаете хиты, когда выпиваете это зелье. Количество восстанавливаемых хитов 8к4 + 8. Зелье представляет собой красную жидкость, сверкающую при встряхивании."
+      ]
+    },
+    {
+      "name": "Кислота (флакон)",
+      "source": "PHB",
+      "page": 148,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 2500,
+      "entries": [
+        "Вы можете Действием выплеснуть содержимое этого сосуда на существо, находящееся в пределах 5 футов от вас, или метнуть сосуд на расстояние до 20 футов, чтобы он разбился от удара. В любом случае совершите дальнобойную атаку против существа или предмета, считая кислоту импровизированным оружием. При попадании цель получает урон кислотой 2к6."
+      ]
+    },
+    {
+      "name": "Таран, портативный",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 35,
+      "value": 400,
+      "entries": [
+        "Вы можете вышибать портативным тараном двери. Вы получаете бонус +4 к проверкам Силы. Если другой персонаж помогает вам использовать таран, вы совершаете проверку с преимуществом."
+      ]
+    },
+    {
+      "name": "Металлические шарики (сумка с 1000 шт.)",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 2,
+      "value": 100,
+      "entries": [
+        "Вы можете действием рассыпать из этого мешка крохотные металлические шарики, покрыв площадь 10 × 10 футов. Существа, перемещающиеся по этой области, должны преуспеть в спасброске Ловкости со Сл 10, иначе они падают ничком. Существо, перемещающееся по этой области с уменьшенной вдвое скоростью, не обязано совершать спасбросок."
+      ]
+    },
+    {
+      "name": "Калтроп",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 0.1,
+      "value": 5,
+      "entries": [
+        "Вы можете действием рассыпать сумку калтропов по площади в 5 × 5 футов. Все существа, входящие в эту область, должны преуспеть в спасброске Ловкости со Сл 15, иначе они останавливаются и получают колющий урон 1. Пока это существо не восстановит как минимум 1 хит, его скорость ходьбы уменьшена на 10 футов. Существо, перемещающееся по этой области с уменьшенной вдвое скоростью, не обязано совершать спасбросок."
+      ]
+    },
+    {
+      "name": "Калтропы (сумка 20 шт.)",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 2,
+      "value": 100,
+      "entries": [
+        "Вы можете действием рассыпать сумку калтропов по площади в 5 × 5 футов. Все существа, входящие в эту область, должны преуспеть в спасброске Ловкости со Сл 15, иначе они останавливаются и получают колющий урон 1. Пока это существо не восстановит как минимум 1 хит, его скорость ходьбы уменьшена на 10 футов. Существо, перемещающееся по этой области с уменьшенной вдвое скоростью, не обязано совершать спасбросок."
+      ]
+    },
+    {
+      "name": "Яд, простой (флакон)",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "Вы можете покрыть ядом из этого флакона одно рубящее или колющее оружие или три боеприпаса. Наносится яд одним Действием. Существо, по которому попадёт отравленное оружие или боеприпас, должно совершить спасбросок Телосложения со Сл 10, получая в случае провала урон ядом 1к4. Нанесённый яд эффективен 1 минуту, после чего высыхает и теряет все свойства."
+      ]
+    },
+    {
+      "name": "Волынка",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "INS",
+      "rarity": "none",
+      "weight": 6,
+      "value": 3000,
+      "entries": [
+        "Если вы владеете определённым музыкальным инструментом, вы можете добавлять бонус мастерства к проверкам характеристик, совершённым во время игры на нём. Бард может использовать музыкальный инструмент в качестве фокусировки для заклинаний. Для каждого музыкального инструмента нужно отдельное владение."
+      ]
+    },
+    {
+      "name": "Ломик",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 5,
+      "value": 200,
+      "entries": [
+        "Использование ломика позволяет совершать проверки Силы с преимуществом, если рычаг должен помочь."
+      ]
+    },
+    {
+      "name": "Книга заклинаний",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 3,
+      "value": 5000,
+      "entries": [
+        "Книги заклинаний очень важны для волшебников. Это переплетённые кожей тома, содержащие 100 пустых пергаментных страниц, на которых можно записывать заклинания."
+      ]
+    },
+    {
+      "name": "Комплект одежды (обычная)",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 3,
+      "entries": [
+        "Комплект одежды предназначен для  повседневного ношения. Комплект включает в себя, холшовую рубаху, штаны, ботинки или плетеную из лозы обувь. "
+      ],
+      "value": 50
+    },
+    {
+      "name": "Мешочек с компонентами",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 2,
+      "value": 2500,
+      "entries": [
+        "Мешочек с компонентами это маленький водонепроницаемый кожаный поясной кошель с отделениями для хранения материальных компонентов и других особых предметов, нужных для накладывания заклинаний, если только у этих компонентов не указана стоимость (смотрите описание заклинания)."
+      ]
+    },
+    {
+      "name": "Блок и лебёдка",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 5,
+      "value": 100,
+      "entries": [
+        "Набор блоков и тросов с крюками для подвешивания предметов. Блок и лебёдка позволяют вам поднять в четыре раза больше, чем обычно."
+      ]
+    },
+    {
+      "name": "Фонарь, направленный",
+      "source": "PHB",
+      "page": 152,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 2,
+      "value": 1000,
+      "entries": [
+        "Направленный фонарь испускает яркий свет 60-футовым конусом и тусклый свет в пределах ещё 60 футов. Зажжённый фонарь горит 6 часов от одной фляги (1 пинта [0,5 литра]) масла."
+      ]
+    },
+    {
+      "name": "Металлические шарики",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 0.002,
+      "value": 0.1,
+      "entries": [
+        "Обычно находятся в {@item Металлические шарики (сумка с 1000 шт.)|phb|сумке с металлическими шариками (1000 шт.)}."
+      ]
+    },
+    {
+      "name": "Подзорная труба",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 100000,
+      "entries": [
+        "Предметы, на которые смотрят в подзорную трубу, увеличиваются в два раза."
+      ]
+    },
+    {
+      "name": "Рационы (1 день)",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 2,
+      "value": 50,
+      "entries": [
+        "Рационы состоят из обезвоженной пищи, подходящей для путешествий, включая вяленое мясо, сухофрукты, галеты и орехи."
+      ]
+    },
+    {
+      "name": "Противоядие (флакон)",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "Существо, выпившее жидкость из этого флакона, в течение часа совершает спасброски от яда с преимуществом. Оно не предоставляет преимущества нежити и конструктам."
+      ]
+    },
+    {
+      "name": "Верёвка, шёлковая, 50 футов",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "weight": 5,
+      "entries": [
+        "У верёвки, сделанной из шёлка, 2 хита, и её можно порвать проверкой Силы со Сл 17."
+      ],
+      "value": 1000
+    },
+    {
+      "name": "Цепь (10 футов)",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 10,
+      "value": 500,
+      "entries": [
+        "У цепи 10 хитов. Её можно порвать успешной проверкой Силы со Сл 20."
+      ]
+    },
+    {
+      "name": "Факел",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 1,
+      "entries": [
+        "Факел горит 1 час, испуская яркий свет в пределах 20 футов и тусклый свет в пределах ещё 20 футов. Если вы совершаете рукопашную атаку горящим факелом и попадаете, он причиняет урон огнём 1к4."
+      ]
+    },
+    {
+      "name": "Алхимический огонь (фляга)",
+      "source": "PHB",
+      "page": 148,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 5000,
+      "entries": [
+        "Эта вязкая и клейкая жидкость воспламеняется при контакте с воздухом. Вы можете действием метнуть фляжку на расстояние до 20 футов, разбив её от удара. Совершите дальнобойную атаку по существу или предмету, считая алхимический огонь импровизированным оружием. При попадании цель получает урон огнём 1к4 в начале каждого своего хода. Существо может окончить этот урон, потратив действие на тушение пламени, и совершив проверку Ловкости со Сл 10."
+      ]
+    },
+    {
+      "name": "10-ти футовая лестница",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 25,
+      "value": 10
+    },
+    {
+      "name": "50-футовая пеньковая верёвка",
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 10,
+      "value": 100
+    },
+    {
+      "name": "Золото",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "weight": 1,
+      "value": 5000
+    },
+    {
+      "name": "Абак (счеты)",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 2,
+      "value": 200
+    },
+    {
+      "name": "Барабан",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "INS",
+      "rarity": "none",
+      "weight": 3,
+      "value": 600
+    },
+    {
+      "name": "Бумага (один лист)",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 20
+    },
+    {
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 2,
+      "value": 200,
+      "name": "Бутылка, стеклянная"
+    },
+    {
+      "name": "Веточка омелы",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "SCF",
+      "rarity": "none",
+      "value": 100
+    },
+    {
+      "name": "Вино обычное (кружка)",
+      "source": "PHB",
+      "page": 158,
+      "srd": true,
+      "basicRules": true,
+      "type": "FD",
+      "rarity": "none",
+      "value": 20
+    },
+    {
+      "name": "Вино отличное (бутылка)\n",
+      "source": "PHB",
+      "page": 158,
+      "srd": true,
+      "basicRules": true,
+      "type": "FD",
+      "rarity": "none",
+      "value": 1000
+    },
+    {
+      "name": "Виола",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "INS",
+      "rarity": "none",
+      "weight": 1,
+      "value": 3000
+    },
+    {
+      "name": "Вол",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "value": 1500
+    },
+    {
+      "name": "Воровские инструменты",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "T",
+      "rarity": "none",
+      "weight": 1,
+      "value": 2500
+    },
+    {
+      "name": "Воск (сургуч)",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 50
+    },
+    {
+      "name": "Гвоздика (пряность)",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "weight": 1,
+      "value": 300
+    },
+    {
+      "name": "Драконьи шахматы",
+      "source": "PHB",
+      "page": 154,
+      "basicRules": true,
+      "type": "GS",
+      "rarity": "none",
+      "weight": 0.5,
+      "value": 100
+    },
+    {
+      "name": "Духи (флакон)",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 500
+    },
+    {
+      "name": "Железные шипы",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 5,
+      "value": 100
+    },
+    {
+      "source": "PHB",
+      "page": 153,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 10,
+      "value": 200,
+      "name": "Железный горшок"
+    },
+    {
+      "name": "Железо",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "weight": 1,
+      "value": 10
+    },
+    {
+      "name": "Зеркало, стальное",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 0.5,
+      "value": 500
+    },
+    {
+      "name": "Игральные карты",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "GS",
+      "rarity": "none",
+      "value": 50
+    },
+    {
+      "name": "Имбирь (пряность)\n",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "weight": 1,
+      "value": 100
+    },
+    {
+      "name": "Инструменты алхимика",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 8,
+      "value": 5000
+    },
+    {
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 3,
+      "value": 1000,
+      "name": "Инструменты гончара"
+    },
+    {
+      "name": "Инструменты жестянщика (ремонтный набор)",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 10,
+      "value": 5000
+    },
+    {
+      "name": "Инструменты каллиграфа",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 5,
+      "value": 1000
+    },
+    {
+      "name": "Инструменты каменщика",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 8,
+      "value": 1000
+    },
+    {
+      "name": "Инструменты картографа",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 6,
+      "value": 1500
+    },
+    {
+      "name": "Инструменты кожевника",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 5,
+      "value": 500
+    },
+    {
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 8,
+      "value": 2000,
+      "name": "Инструменты кузнеца"
+    },
+    {
+      "name": "Инструменты навигатора",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "T",
+      "rarity": "none",
+      "weight": 2,
+      "value": 2500
+    },
+    {
+      "name": "Инструменты отравителя",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "T",
+      "rarity": "none",
+      "weight": 2,
+      "value": 5000
+    },
+    {
+      "name": "Инструменты пивовара",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 9,
+      "value": 2000
+    },
+    {
+      "name": "Инструменты плотника",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 6,
+      "value": 800
+    },
+    {
+      "name": "Инструменты повара",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 8,
+      "value": 100
+    },
+    {
+      "name": "Инструменты резчика по дереву",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 5,
+      "value": 100
+    },
+    {
+      "name": "Инструменты сапожника\n",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 5,
+      "value": 500
+    },
+    {
+      "name": "Инструменты стеклодува",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 5,
+      "value": 3000
+    },
+    {
+      "name": "Инструменты ткача",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 5,
+      "value": 100
+    },
+    {
+      "name": "Инструменты художника",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 5,
+      "value": 1000
+    },
+    {
+      "name": "Инструменты ювелира",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "AT",
+      "rarity": "none",
+      "weight": 2,
+      "value": 2500
+    },
+    {
+      "name": "Карета",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "VEH",
+      "rarity": "none",
+      "weight": 100,
+      "value": 25000
+    },
+    {
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 10,
+      "value": 200,
+      "name": "Кирка"
+    },
+    {
+      "name": "Книга",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 5,
+      "value": 2500
+    },
+    {
+      "name": "Колокольчик",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 100
+    },
+    {
+      "name": "Кольцо-печатка",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 500
+    },
+    {
+      "name": "Коляска",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "VEH",
+      "rarity": "none",
+      "weight": 600,
+      "value": 10000
+    },
+    {
+      "name": "Коплект одежды (костюм)",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 4,
+      "value": 500
+    },
+    {
+      "name": "Корица (пряность)",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "weight": 1,
+      "value": 200
+    },
+    {
+      "name": "Корм (в день)\n",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TAH",
+      "rarity": "none",
+      "weight": 10,
+      "value": 5
+    },
+    {
+      "name": "Корова",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "value": 1000
+    },
+    {
+      "name": "Крюк-кошка",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 4,
+      "value": 200
+    },
+    {
+      "name": "Курица",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "value": 2
+    },
+    {
+      "source": "PHB",
+      "page": 158,
+      "srd": true,
+      "basicRules": true,
+      "type": "FD",
+      "rarity": "none",
+      "value": 10,
+      "name": "Кусок сыра"
+    },
+    {
+      "name": "Кусок хлеба",
+      "source": "PHB",
+      "page": 158,
+      "srd": true,
+      "basicRules": true,
+      "type": "FD",
+      "rarity": "none",
+      "value": 2
+    },
+    {
+      "name": "Лира",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "INS",
+      "rarity": "none",
+      "weight": 2,
+      "value": 3000
+    },
+    {
+      "name": "Лопата",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 5,
+      "value": 200
+    },
+    {
+      "name": "Льняная ткань",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "value": 500
+    },
+    {
+      "name": "Лютня",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "INS",
+      "rarity": "none",
+      "weight": 2,
+      "value": 3500
+    },
+    {
+      "name": "Медь",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "weight": 1,
+      "value": 50
+    },
+    {
+      "name": "Мел",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 1
+    },
+    {
+      "name": "Молот, кузнечный",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 10,
+      "value": 200
+    },
+    {
+      "name": "Молоток",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 3,
+      "value": 100
+    },
+    {
+      "name": "Мука",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "weight": 1,
+      "value": 2
+    },
+    {
+      "name": "Мыло",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 2
+    },
+    {
+      "name": "Мясо, жаренное, кусок",
+      "source": "PHB",
+      "page": 158,
+      "srd": true,
+      "basicRules": true,
+      "type": "FD",
+      "rarity": "none",
+      "value": 300
+    },
+    {
+      "name": "Набор игровых костей",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "GS",
+      "rarity": "none",
+      "value": 10
+    },
+    {
+      "name": "Овца",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "value": 200
+    },
+    {
+      "name": "Одежда (отличная, парадная)",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 6,
+      "value": 1500
+    },
+    {
+      "name": "Одежда путешественника (дорожная)",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 4,
+      "value": 200
+    },
+    {
+      "name": "Одеяло",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 3,
+      "value": 50
+    },
+    {
+      "name": "Пергамент (один лист)",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 10
+    },
+    {
+      "name": "Перец (пряность)",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "weight": 1,
+      "value": 200
+    },
+    {
+      "name": "Песочные часы",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 2500
+    },
+    {
+      "name": "Пиво галлон (4 литра)",
+      "source": "PHB",
+      "page": 158,
+      "srd": true,
+      "basicRules": true,
+      "type": "FD",
+      "rarity": "none",
+      "value": 20
+    },
+    {
+      "name": "Пиво кружка",
+      "source": "PHB",
+      "page": 158,
+      "srd": true,
+      "basicRules": true,
+      "type": "FD",
+      "rarity": "none",
+      "value": 4
+    },
+    {
+      "name": "Писчее перо",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 2
+    },
+    {
+      "name": "Платина",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "weight": 1,
+      "value": 50000
+    },
+    {
+      "name": "Пшеница",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "weight": 1,
+      "value": 1
+    },
+    {
+      "name": "Реликварий",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "SCF",
+      "rarity": "none",
+      "weight": 2,
+      "value": 500
+    },
+    {
+      "name": "Рожок",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "INS",
+      "rarity": "none",
+      "weight": 2,
+      "value": 300
+    },
+    {
+      "name": "Ряса",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 4,
+      "value": 100
+    },
+    {
+      "name": "Сани",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "VEH",
+      "rarity": "none",
+      "weight": 300,
+      "value": 2000
+    },
+    {
+      "name": "Свинья",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "value": 300
+    },
+    {
+      "name": "Свирель",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "INS",
+      "rarity": "none",
+      "weight": 2,
+      "value": 1200
+    },
+    {
+      "name": "Седельные сумки",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TAH",
+      "rarity": "none",
+      "weight": 8,
+      "value": 400
+    },
+    {
+      "name": "Седло, ездовое",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TAH",
+      "rarity": "none",
+      "weight": 25,
+      "value": 1000
+    },
+    {
+      "name": "Серебро",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "weight": 1,
+      "value": 500
+    },
+    {
+      "name": "Сигнальный свисток",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 5
+    },
+    {
+      "name": "Соль",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "weight": 1,
+      "value": 5
+    },
+    {
+      "name": "Спальник (спальный мешок)",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 7,
+      "value": 100
+    },
+    {
+      "name": "Телега",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "VEH",
+      "rarity": "none",
+      "weight": 200,
+      "value": 1500
+    },
+    {
+      "name": "Тисовая палочка",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "SCF",
+      "rarity": "none",
+      "weight": 1,
+      "value": 1000
+    },
+    {
+      "name": "Ткань, хлопчатобумажная (1 кв. м.)",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "value": 50
+    },
+    {
+      "name": "Тотем",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "SCF",
+      "rarity": "none",
+      "value": 100
+    },
+    {
+      "name": "Точильный камень",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 1,
+      "value": 1
+    },
+    {
+      "name": "Упряжь и уздечка",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TAH",
+      "rarity": "none",
+      "weight": 1,
+      "value": 200
+    },
+    {
+      "name": "Флейта",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "INS",
+      "rarity": "none",
+      "weight": 1,
+      "value": 200
+    },
+    {
+      "name": "Фургон",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "VEH",
+      "rarity": "none",
+      "weight": 400,
+      "value": 3500
+    },
+    {
+      "name": "Цимбалы",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "INS",
+      "rarity": "none",
+      "weight": 10,
+      "value": 2500
+    },
+    {
+      "name": "Шалмей",
+      "source": "PHB",
+      "page": 154,
+      "srd": true,
+      "basicRules": true,
+      "type": "INS",
+      "rarity": "none",
+      "weight": 1,
+      "value": 200
+    },
+    {
+      "name": "Шафран (пряность)",
+      "source": "PHB",
+      "page": 157,
+      "srd": true,
+      "basicRules": true,
+      "type": "TG",
+      "rarity": "none",
+      "weight": 1,
+      "value": 1500
+    },
+    {
+      "name": "Шест (10-футов)",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 7,
+      "value": 5
+    },
+    {
+      "name": "Шлямбур (колышек)",
+      "source": "PHB",
+      "page": 150,
+      "srd": true,
+      "basicRules": true,
+      "type": "G",
+      "rarity": "none",
+      "weight": 0.25,
+      "value": 5
+    },
+    {
+      "name": "Эмблема",
+      "source": "PHB",
+      "page": 151,
+      "srd": true,
+      "basicRules": true,
+      "type": "SCF",
+      "rarity": "none",
+      "value": 500
+    }
+  ]
+}
