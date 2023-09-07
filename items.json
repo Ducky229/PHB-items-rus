@@ -511,69 +511,6 @@
 			]
 		},
 		{
-			"name": "Набор взломщика",
-			"source": "PHB",
-			"page": 151,
-			"srd": true,
-			"basicRules": true,
-			"type": "G",
-			"rarity": "none",
-			"weight": 44.5,
-			"value": 1600,
-			"entries": [
-				"Набор взломщика включает в себя::",
-				{
-					"type": "list",
-					"items": [
-						"{@item Рюкзак|phb}",
-						"{@item Металлические шарики (сумка с 1000 шт.)|phb|сумку с металлическими шариками}",
-						"10 футов лески",
-						"a {@item Колокольчик|phb}",
-						"5 {@item Свечка|phb|Свечек}",
-						"a {@item Ломик|phb}",
-						"a {@item Молоток|phb}",
-						"10 {@item Шлямбур|phb|Шлямбуров}",
-						"a {@item Закрытый фонарь|phb}",
-						"2 {@item Масло (фляга)|phb|фляги масла}",
-						"{@item Рацион (1 день)|phb|Рационов} на 5 дней",
-						"{@item Трутница|phb|Трутницу}",
-						"{@item Бурдюк|phb}",
-						"и {@item Верёвка пеньковая (50 футов)|phb|50 футов пеньковой верёвки}"
-					]
-				}
-			],
-			"packContents": [
-				"Рюкзак|phb",
-				"Металлические шарики (сумка с 1000 шт.)|phb",
-				{
-					"special": "10 футов лески"
-				},
-				"Колокольчик|phb",
-				{
-					"item": "Свечка|phb",
-					"quantity": 5
-				},
-				"Ломик|phb",
-				"Молоток|phb",
-				{
-					"item": "Шлямбур|phb",
-					"quantity": 10
-				},
-				"hooded lantern|phb",
-				{
-					"item": "Масло (фляга)|phb",
-					"quantity": 2
-				},
-				{
-					"item": "Рацион (1 день)|phb",
-					"quantity": 5
-				},
-				"Трутница|phb",
-				"Бурдюк|phb",
-				"Верёвка пеньковая (50 футов)|phb"
-			]
-		},
-		{
 			"name": "Инструменты каллиграфа",
 			"source": "PHB",
 			"page": 154,
@@ -811,7 +748,7 @@
 			]
 		},
 		{
-			"name": "Carriage",
+			"name": "Коляска",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -822,7 +759,7 @@
 			"value": 10000
 		},
 		{
-			"name": "Cart",
+			"name": "Телега",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -918,7 +855,7 @@
 			]
 		},
 		{
-			"name": "Chain (10 feet)",
+			"name": "Цепь (10 футов)",
 			"source": "PHB",
 			"page": 151,
 			"srd": true,
@@ -928,11 +865,11 @@
 			"weight": 10,
 			"value": 500,
 			"entries": [
-				"A chain has 10 hit points. It can be burst with a successful DC 20 Strength check."
+				"У цепи 10 хитов. Её можно порвать успешной проверкой Силы со Сл 20."
 			]
 		},
 		{
-			"name": "Chalk (1 piece)",
+			"name": "Мел",
 			"source": "PHB",
 			"page": 150,
 			"srd": true,
@@ -942,7 +879,7 @@
 			"value": 1
 		},
 		{
-			"name": "Chariot",
+			"name": "Карета",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -960,26 +897,25 @@
 			"additionalEntries": [
 				{
 					"type": "inset",
-					"name": "Chariots",
+					"name": "Каретs",
 					"source": "MOT",
 					"page": 196,
 					"entries": [
-						"Chariots and the creatures pulling them work like controlled mounts, as described in the mounted combat rules in the {@book Player's Handbook|PHB|9|Mounted Combat}, but with the following differences:",
+						"Если вы владеете определенным типом транспорта (наземным или водным), вы можете добавлять бонус владения к проверкам, совершённым для управления этим транспортом в трудных обстоятельствах. Колесницы и запряженные в них существа работают как контролируемые верховые животные, как описано в правилах боя верхом в Книге Игрока, но со следующими отличиями:",
 						{
 							"type": "list",
 							"items": [
-								"Mounting or dismounting a chariot costs you 5 feet of movement, rather than a number of feet equal to half your speed.",
-								"Being mounted on a chariot grants you half cover.",
-								"A chariot's speed is equal to the speed of the slowest creature pulling it.",
-								"If multiple creatures are pulling the chariot, they all act on the same initiative, and they must take the same action on their turn."
-							]
+								"Посадка или спешивание с колесницы стоит вам 5 футов движения, а не количество футов, равное половине вашей скорости.",
+								"Сидя на колеснице, вы получаете половину укрытия.",
+								"Скорость колесницы равна скорости самого медленного существа, тянущего ее. Если несколько существ тянут колесницу, все они действуют на одной и той же инициативе и должны выполнять одно и то же действие в свой ход."
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Chest",
+			"name": "Сундук
+			",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -989,7 +925,7 @@
 			"weight": 25,
 			"value": 500,
 			"entries": [
-				"A chest holds 12 cubic feet or 300 pounds of gear."
+				"Вместимость: 12 кубических футов/300 фунтов (150 кг.)"
 			],
 			"containerCapacity": {
 				"weight": [
@@ -998,7 +934,7 @@
 			}
 		},
 		{
-			"name": "Chicken",
+			"name": "Курица",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -1008,17 +944,17 @@
 			"value": 2
 		},
 		{
-			"name": "Chunk of Meat",
+			"name": "Мясо, жаренное, кусок",
 			"source": "PHB",
 			"page": 158,
 			"srd": true,
 			"basicRules": true,
 			"type": "FD",
 			"rarity": "none",
-			"value": 30
+			"value": 300
 		},
 		{
-			"name": "Cinnamon",
+			"name": "Корица (пряность)",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -1029,7 +965,7 @@
 			"value": 200
 		},
 		{
-			"name": "Climber's Kit",
+			"name": "Комплект для лазания",
 			"source": "PHB",
 			"page": 151,
 			"srd": true,
@@ -1039,11 +975,11 @@
 			"weight": 12,
 			"value": 2500,
 			"entries": [
-				"A climber's kit includes special pitons, boot tips, gloves, and a harness. You can use the climber's kit as an action to anchor yourself; when you do, you can't fall more than 25 feet from the point where you anchored yourself, and you can't climb more than 25 feet away from that point without undoing the anchor."
+				"В набор для лазания входят шлямбуры, накладные подошвы, перчатки и страховочная привязь. Вы можете действием использовать набор для лазания, чтобы закрепиться на высоте; если вы делаете это, вы не можете упасть более чем на 25 футов от того места, где закрепились, но и не можете подняться выше 25 футов от этого места, не открепившись."
 			]
 		},
 		{
-			"name": "Cloves",
+			"name": "Гвоздика (пряность)",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -1131,24 +1067,7 @@
 			]
 		},
 		{
-			"name": "Cold Absorbing Tattoo",
-			"source": "TCE",
-			"page": 119,
-			"resist": [
-				"cold"
-			],
-			"detail1": "blue",
-			"rarity": "very rare",
-			"reqAttune": true,
-			"wondrous": true,
-			"tattoo": true,
-			"hasRefs": true,
-			"entries": [
-				"{#itemEntry Absorbing Tattoo|TCE}"
-			]
-		},
-		{
-			"name": "Common Clothes",
+			"name": "Комплект одежды (обычная)",
 			"source": "PHB",
 			"page": 150,
 			"srd": true,
@@ -1156,10 +1075,13 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 3,
+			"entries": [
+				"Комплект одежды предназначен для  повседневного ношения. Комплект включает в себя, холшовую рубаху, штаны, ботинки или плетеную из лозы обувь. "
+			],
 			"value": 50
 		},
 		{
-			"name": "Common Wine (Pitcher)",
+			"name": "Вино обычное (кружка)",
 			"source": "PHB",
 			"page": 158,
 			"srd": true,
@@ -1169,7 +1091,7 @@
 			"value": 20
 		},
 		{
-			"name": "Component Pouch",
+			"name": "Мешочек с компонентами",
 			"source": "PHB",
 			"page": 151,
 			"srd": true,
@@ -1179,7 +1101,7 @@
 			"weight": 2,
 			"value": 2500,
 			"entries": [
-				"A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description)."
+				"Мешочек с компонентами это маленький водонепроницаемый кожаный поясной кошель с отделениями для хранения материальных компонентов и других особых предметов, нужных для накладывания заклинаний, если только у этих компонентов не указана стоимость (смотрите описание заклинания)."
 			]
 		},
 		{
@@ -1268,7 +1190,7 @@
 			]
 		},
 		{
-			"name": "Copper",
+			"name": "Медь",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -1279,25 +1201,7 @@
 			"value": 50
 		},
 		{
-			"name": "Copper (cp)",
-			"source": "PHB",
-			"page": 143,
-			"type": "$",
-			"rarity": "none",
-			"weight": 0.02,
-			"value": 1,
-			"entries": [
-				"Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).",
-				"With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.",
-				"One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.",
-				"One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.",
-				"In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.",
-				"A standard coin weighs about a third of an ounce, so fifty coins weigh a pound."
-			],
-			"hasFluffImages": true
-		},
-		{
-			"name": "Costume Clothes",
+			"name": "Коплект одежды (костюм)",
 			"source": "PHB",
 			"page": 150,
 			"srd": true,
@@ -1308,7 +1212,7 @@
 			"value": 500
 		},
 		{
-			"name": "Cotton Cloth (1 sq. yd.)",
+			"name": "Ткань, хлопчатобумажная (1 кв. м.)",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -1318,7 +1222,7 @@
 			"value": 50
 		},
 		{
-			"name": "Cow",
+			"name": "Корова",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -1328,7 +1232,7 @@
 			"value": 1000
 		},
 		{
-			"name": "Crossbow Bolt Case",
+			"name": "Контейнер для арбалетных болтов",
 			"source": "PHB",
 			"page": 151,
 			"srd": true,
@@ -1338,18 +1242,18 @@
 			"weight": 1,
 			"value": 100,
 			"entries": [
-				"This wooden case can hold up to twenty {@item crossbow bolt|phb|crossbow bolts}."
+				"В этот деревянный контейнер помещаются 20 арбалетных болтов."
 			],
 			"containerCapacity": {
 				"item": [
 					{
-						"crossbow bolt|phb": 20
+						"Арбалетный болт|phb": 20
 					}
 				]
 			}
 		},
 		{
-			"name": "Crowbar",
+			"name": "Ломик",
 			"source": "PHB",
 			"page": 151,
 			"srd": true,
@@ -1359,11 +1263,11 @@
 			"weight": 5,
 			"value": 200,
 			"entries": [
-				"Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied."
+				"Использование ломика позволяет совершать проверки Силы с преимуществом, если рычаг должен помочь."
 			]
 		},
 		{
-			"name": "Dice Set",
+			"name": "Набор игровых костей",
 			"source": "PHB",
 			"page": 154,
 			"srd": true,
@@ -1371,58 +1275,6 @@
 			"type": "GS",
 			"rarity": "none",
 			"value": 10
-		},
-		{
-			"name": "Diplomat's Pack",
-			"source": "PHB",
-			"page": 151,
-			"srd": true,
-			"basicRules": true,
-			"type": "G",
-			"rarity": "none",
-			"weight": 36,
-			"value": 3900,
-			"entries": [
-				"Includes:",
-				{
-					"type": "list",
-					"items": [
-						"a {@item chest|phb}",
-						"2 {@item Map or Scroll Case|phb|cases for maps and scrolls}",
-						"a set of {@item fine clothes|phb}",
-						"a {@item Ink (1-ounce bottle)|phb|bottle of ink}",
-						"an {@item ink pen|phb}",
-						"a {@item lamp|phb}",
-						"2 {@item Oil (flask)|phb|flasks of oil}",
-						"5 {@item Paper (one sheet)|phb|sheets of paper}",
-						"a {@item Perfume (vial)|phb|vial of perfume}",
-						"{@item sealing wax|phb}",
-						"{@item soap|phb}"
-					]
-				}
-			],
-			"packContents": [
-				"chest|phb",
-				{
-					"item": "map or scroll case|phb",
-					"quantity": 2
-				},
-				"fine clothes|phb",
-				"ink (1-ounce bottle)|phb",
-				"ink pen|phb",
-				"lamp|phb",
-				{
-					"item": "oil (flask)|phb",
-					"quantity": 2
-				},
-				{
-					"item": "paper (one sheet)|phb",
-					"quantity": 5
-				},
-				"perfume (vial)|phb",
-				"sealing wax|phb",
-				"soap|phb"
-			]
 		},
 		{
 			"name": "Disguise Kit",
@@ -1517,7 +1369,7 @@
 			]
 		},
 		{
-			"name": "Donkey",
+			"name": "Осёл",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -1529,7 +1381,7 @@
 			"speed": 40
 		},
 		{
-			"name": "Draft Horse",
+			"name": "Лошадь, тягловая",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -1541,7 +1393,7 @@
 			"speed": 40
 		},
 		{
-			"name": "Dragonchess Set",
+			"name": "Драконьи шахматы",
 			"source": "PHB",
 			"page": 154,
 			"basicRules": true,
@@ -1551,7 +1403,7 @@
 			"value": 100
 		},
 		{
-			"name": "Drum",
+			"name": "Барабан",
 			"source": "PHB",
 			"page": 154,
 			"srd": true,
@@ -1562,7 +1414,7 @@
 			"value": 600
 		},
 		{
-			"name": "Dulcimer",
+			"name": "Цимбалы",
 			"source": "PHB",
 			"page": 154,
 			"srd": true,
@@ -1573,73 +1425,7 @@
 			"value": 2500
 		},
 		{
-			"name": "Dungeoneer's Pack",
-			"source": "PHB",
-			"page": 151,
-			"srd": true,
-			"basicRules": true,
-			"type": "G",
-			"rarity": "none",
-			"weight": 61.5,
-			"value": 1200,
-			"entries": [
-				"Includes:",
-				{
-					"type": "list",
-					"items": [
-						"a {@item backpack|phb}",
-						"a {@item crowbar|phb}",
-						"a {@item hammer|phb}",
-						"10 {@item piton|phb|pitons}",
-						"10 {@item torch|phb|torches}",
-						"a {@item tinderbox|phb}",
-						"10 days of {@item Rations (1 day)|phb|rations}",
-						"a {@item waterskin|phb}",
-						"{@item Hempen Rope (50 feet)|phb|50 feet of hempen rope}"
-					]
-				}
-			],
-			"packContents": [
-				"backpack|phb",
-				"crowbar|phb",
-				"hammer|phb",
-				{
-					"item": "piton|phb",
-					"quantity": 10
-				},
-				{
-					"item": "torch|phb",
-					"quantity": 10
-				},
-				"tinderbox|phb",
-				{
-					"item": "rations (1 day)|phb",
-					"quantity": 10
-				},
-				"waterskin|phb",
-				"hempen rope (50 feet)|phb"
-			]
-		},
-		{
-			"name": "Electrum (ep)",
-			"source": "PHB",
-			"page": 143,
-			"type": "$",
-			"rarity": "none",
-			"weight": 0.02,
-			"value": 50,
-			"entries": [
-				"Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).",
-				"With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.",
-				"One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.",
-				"One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.",
-				"In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.",
-				"A standard coin weighs about a third of an ounce, so fifty coins weigh a pound."
-			],
-			"hasFluffImages": true
-		},
-		{
-			"name": "Elephant",
+			"name": "Слон",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -1651,7 +1437,7 @@
 			"speed": 40
 		},
 		{
-			"name": "Emblem",
+			"name": "Эмблема",
 			"source": "PHB",
 			"page": 151,
 			"srd": true,
@@ -1660,50 +1446,6 @@
 			"scfType": "holy",
 			"rarity": "none",
 			"value": 500
-		},
-		{
-			"name": "Entertainer's Pack",
-			"source": "PHB",
-			"page": 151,
-			"srd": true,
-			"basicRules": true,
-			"type": "G",
-			"rarity": "none",
-			"weight": 38,
-			"value": 4000,
-			"entries": [
-				"Includes:",
-				{
-					"type": "list",
-					"items": [
-						"a {@item backpack|phb}",
-						"a {@item bedroll|phb}",
-						"2 {@item Costume Clothes|phb|costumes}",
-						"5 {@item candle|phb|candles}",
-						"5 days of {@item Rations (1 day)|phb|rations}",
-						"a {@item waterskin|phb}",
-						"a {@item disguise kit|phb}"
-					]
-				}
-			],
-			"packContents": [
-				"backpack|phb",
-				"bedroll|phb",
-				{
-					"item": "costume clothes|phb",
-					"quantity": 2
-				},
-				{
-					"item": "candle|phb",
-					"quantity": 5
-				},
-				{
-					"item": "rations (1 day)|phb",
-					"quantity": 5
-				},
-				"waterskin|phb",
-				"disguise kit|phb"
-			]
 		},
 		{
 			"name": "Exotic Saddle",
@@ -3026,7 +2768,7 @@
 			"value": 200
 		},
 		{
-			"name": "Perfume (vial)",
+			"name": "Духи (флакон)",
 			"source": "PHB",
 			"page": 150,
 			"srd": true,
@@ -3036,7 +2778,7 @@
 			"value": 500
 		},
 		{
-			"name": "Pig",
+			"name": "Свинья",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -3046,7 +2788,7 @@
 			"value": 300
 		},
 		{
-			"name": "Pitcher",
+			"name": "Кувшин",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -3056,11 +2798,11 @@
 			"weight": 4,
 			"value": 2,
 			"entries": [
-				"A pitcher holds 1 gallon of liquid."
+				"Вместимость: 1 галлон (4,5 Литра)"
 			]
 		},
 		{
-			"name": "Piton",
+			"name": "Шлямбур (колышек)",
 			"source": "PHB",
 			"page": 150,
 			"srd": true,
@@ -3071,7 +2813,7 @@
 			"value": 5
 		},
 		{
-			"name": "Platinum",
+			"name": "Платина",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -3082,25 +2824,7 @@
 			"value": 50000
 		},
 		{
-			"name": "Platinum (pp)",
-			"source": "PHB",
-			"page": 143,
-			"type": "$",
-			"rarity": "none",
-			"weight": 0.02,
-			"value": 1000,
-			"entries": [
-				"Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).",
-				"With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.",
-				"One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.",
-				"One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.",
-				"In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.",
-				"A standard coin weighs about a third of an ounce, so fifty coins weigh a pound."
-			],
-			"hasFluffImages": true
-		},
-		{
-			"name": "Playing Card Set",
+			"name": "Игральные карты",
 			"source": "PHB",
 			"page": 154,
 			"srd": true,
@@ -3198,7 +2922,7 @@
 			]
 		},
 		{
-			"name": "Pole (10-foot)",
+			"name": "Шест (10-футов)",
 			"source": "PHB",
 			"page": 150,
 			"srd": true,
@@ -3209,7 +2933,7 @@
 			"value": 5
 		},
 		{
-			"name": "Pony",
+			"name": "Пони",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -3221,7 +2945,7 @@
 			"speed": 40
 		},
 		{
-			"name": "Portable Ram",
+			"name": "Таран, портативный",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -3231,7 +2955,7 @@
 			"weight": 35,
 			"value": 400,
 			"entries": [
-				"You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check."
+				"Вы можете вышибать портативным тараном двери. Вы получаете бонус +4 к проверкам Силы. Если другой персонаж помогает вам использовать таран, вы совершаете проверку с преимуществом."
 			]
 		},
 		{
@@ -3309,7 +3033,7 @@
 			]
 		},
 		{
-			"name": "Pouch",
+			"name": "Кошель",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -3319,7 +3043,7 @@
 			"weight": 1,
 			"value": 50,
 			"entries": [
-				"A cloth or leather pouch can hold up to 20 {@item sling bullet|phb|sling bullets} or 50 {@item blowgun needle|phb|blowgun needles}, among other things. A compartmentalized pouch for holding spell components is called a {@item component pouch|phb}. A pouch can hold up to ⅕ cubic foot or 6 pounds of gear."
+				"В кожаном или тканевом кошеле поместится 20 снарядов для пращи или 50 иголок для духовой трубки, а также другие вещи. Кошель с отделениями для хранения компонентов заклинаний называется мешочком с компонентами. Вместимость: 0,2 кубических фута/6 фунтов (3 кг.)"
 			],
 			"containerCapacity": {
 				"weight": [
@@ -3327,70 +3051,14 @@
 				],
 				"item": [
 					{
-						"sling bullet|phb": 20,
-						"blowgun needle|phb": 50
+						"Снаряд для пращи|phb": 20,
+						"Иголка для духовой трубки|phb": 50
 					}
 				]
 			}
 		},
 		{
-			"name": "Priest's Pack",
-			"source": "PHB",
-			"page": 151,
-			"srd": true,
-			"basicRules": true,
-			"type": "G",
-			"rarity": "none",
-			"weight": 24,
-			"value": 1900,
-			"entries": [
-				"Includes:",
-				{
-					"type": "list",
-					"items": [
-						"a {@item backpack|phb}",
-						"a {@item blanket|phb}",
-						"10 {@item candle|phb|candles}",
-						"a {@item tinderbox|phb}",
-						"an alms box",
-						"2 blocks of incense",
-						"a censer",
-						"vestments",
-						"2 days of {@item Rations (1 day)|phb|rations}",
-						"a {@item waterskin|phb}."
-					]
-				}
-			],
-			"packContents": [
-				"backpack|phb",
-				"blanket|phb",
-				{
-					"item": "candle|phb",
-					"quantity": 10
-				},
-				"tinderbox|phb",
-				{
-					"item": "rations (1 day)|phb",
-					"quantity": 2
-				},
-				"waterskin|phb",
-				{
-					"special": "alms box"
-				},
-				{
-					"special": "block of incense",
-					"quantity": 2
-				},
-				{
-					"special": "censer"
-				},
-				{
-					"special": "vestments"
-				}
-			]
-		},
-		{
-			"name": "Quiver",
+			"name": "Колчан",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -3400,18 +3068,18 @@
 			"weight": 1,
 			"value": 100,
 			"entries": [
-				"A quiver can hold up to 20 {@item arrow|phb|arrows}."
+				"В колчан помещается 20 {@item Стрела|phb|Стрел}."
 			],
 			"containerCapacity": {
 				"item": [
 					{
-						"arrow|phb": 20
+						"Стрела|phb": 20
 					}
 				]
 			}
 		},
 		{
-			"name": "Rations (1 day)",
+			"name": "Рационы (1 день)",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -3421,11 +3089,11 @@
 			"weight": 2,
 			"value": 50,
 			"entries": [
-				"Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts."
+				"Рационы состоят из обезвоженной пищи, подходящей для путешествий, включая вяленое мясо, сухофрукты, галеты и орехи."
 			]
 		},
 		{
-			"name": "Reliquary",
+			"name": "Реликварий",
 			"source": "PHB",
 			"page": 151,
 			"srd": true,
@@ -3437,7 +3105,7 @@
 			"value": 500
 		},
 		{
-			"name": "Riding Horse",
+			"name": "Лошадь, ездовая",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -3449,7 +3117,7 @@
 			"speed": 60
 		},
 		{
-			"name": "Riding Saddle",
+			"name": "Седло, ездовое",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -3460,7 +3128,7 @@
 			"value": 1000
 		},
 		{
-			"name": "Robes",
+			"name": "Ряса",
 			"source": "PHB",
 			"page": 150,
 			"srd": true,
@@ -3471,7 +3139,7 @@
 			"value": 100
 		},
 		{
-			"name": "Sack",
+			"name": "Мешок",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -3481,7 +3149,7 @@
 			"weight": 0.5,
 			"value": 1,
 			"entries": [
-				"A sack can hold up to 1 cubic foot or 30 pounds of gear."
+				"Вместимость: 1 кубический фут/30 фунтов (15 кг.)"
 			],
 			"containerCapacity": {
 				"weight": [
@@ -3490,7 +3158,7 @@
 			}
 		},
 		{
-			"name": "Saddlebags",
+			"name": "Седельные сумки",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -3501,7 +3169,7 @@
 			"value": 400
 		},
 		{
-			"name": "Saffron",
+			"name": "Шафран (пряность)",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -3512,7 +3180,7 @@
 			"value": 1500
 		},
 		{
-			"name": "Salt",
+			"name": "Соль",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -3523,46 +3191,7 @@
 			"value": 5
 		},
 		{
-			"name": "Scholar's Pack",
-			"source": "PHB",
-			"page": 151,
-			"srd": true,
-			"basicRules": true,
-			"type": "G",
-			"rarity": "none",
-			"weight": 10,
-			"value": 4000,
-			"entries": [
-				"Includes:",
-				{
-					"type": "list",
-					"items": [
-						"a {@item backpack|phb}",
-						"a {@item book|phb} of lore",
-						"a {@item Ink (1-ounce bottle)|phb|bottle of ink}",
-						"an {@item ink pen|phb}",
-						"10 {@item Parchment (one sheet)|phb|sheets of parchment}",
-						"a little bag of sand",
-						"a small knife."
-					]
-				}
-			],
-			"packContents": [
-				"backpack|phb",
-				"book|phb",
-				"ink (1-ounce bottle)|phb",
-				"ink pen|phb",
-				"parchment (one sheet)|phb",
-				{
-					"special": "little bag of sand"
-				},
-				{
-					"special": "small knife"
-				}
-			]
-		},
-		{
-			"name": "Sealing Wax",
+			"name": "Воск (сургуч)",
 			"source": "PHB",
 			"page": 150,
 			"srd": true,
@@ -3572,7 +3201,7 @@
 			"value": 50
 		},
 		{
-			"name": "Shawm",
+			"name": "Шалмей",
 			"source": "PHB",
 			"page": 154,
 			"srd": true,
@@ -3583,7 +3212,7 @@
 			"value": 200
 		},
 		{
-			"name": "Sheep",
+			"name": "Овца",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -3593,7 +3222,7 @@
 			"value": 200
 		},
 		{
-			"name": "Shovel",
+			"name": "Лопата",
 			"source": "PHB",
 			"page": 150,
 			"srd": true,
@@ -3604,7 +3233,7 @@
 			"value": 200
 		},
 		{
-			"name": "Signal Whistle",
+			"name": "Сигнальный свисток",
 			"source": "PHB",
 			"page": 150,
 			"srd": true,
@@ -3614,7 +3243,7 @@
 			"value": 5
 		},
 		{
-			"name": "Signet Ring",
+			"name": "Кольцо-печатка",
 			"source": "PHB",
 			"page": 150,
 			"srd": true,
@@ -3624,17 +3253,21 @@
 			"value": 500
 		},
 		{
-			"name": "Silk (1 sq. yd.)",
+			"name": "Верёвка, шёлковая, 50 футов",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
 			"rarity": "none",
+			"weight": 5,
+			"entries": [
+				"У верёвки, сделанной из шёлка, 2 хита, и её можно порвать проверкой Силы со Сл 17."
+			],
 			"value": 1000
 		},
 		{
-			"name": "Silver",
+			"name": "Серебро",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -3645,25 +3278,7 @@
 			"value": 500
 		},
 		{
-			"name": "Silver (sp)",
-			"source": "PHB",
-			"page": 143,
-			"type": "$",
-			"rarity": "none",
-			"weight": 0.02,
-			"value": 10,
-			"entries": [
-				"Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).",
-				"With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.",
-				"One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.",
-				"One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.",
-				"In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.",
-				"A standard coin weighs about a third of an ounce, so fifty coins weigh a pound."
-			],
-			"hasFluffImages": true
-		},
-		{
-			"name": "Sled",
+			"name": "Сани",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -3674,7 +3289,7 @@
 			"value": 2000
 		},
 		{
-			"name": "Sledgehammer",
+			"name": "Молот, кузнечный",
 			"source": "PHB",
 			"page": 150,
 			"srd": true,
@@ -3759,7 +3374,7 @@
 			]
 		},
 		{
-			"name": "Soap",
+			"name": "Мыло",
 			"source": "PHB",
 			"page": 150,
 			"srd": true,
@@ -3769,7 +3384,7 @@
 			"value": 2
 		},
 		{
-			"name": "Spellbook",
+			"name": "Книга заклинаний",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -3779,11 +3394,11 @@
 			"weight": 3,
 			"value": 5000,
 			"entries": [
-				"Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells."
+				"Книги заклинаний очень важны для волшебников. Это переплетённые кожей тома, содержащие 100 пустых пергаментных страниц, на которых можно записывать заклинания."
 			]
 		},
 		{
-			"name": "Sprig of Mistletoe",
+			"name": "Веточка омелы",
 			"source": "PHB",
 			"page": 151,
 			"srd": true,
@@ -3794,7 +3409,7 @@
 			"value": 100
 		},
 		{
-			"name": "Spyglass",
+			"name": "Подзорная труба",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -3804,21 +3419,11 @@
 			"weight": 1,
 			"value": 100000,
 			"entries": [
-				"Objects viewed through a spyglass are magnified to twice their size."
+				"Предметы, на которые смотрят в подзорную трубу, увеличиваются в два раза."
 			]
 		},
 		{
-			"name": "Stabling (per day)",
-			"source": "PHB",
-			"page": 157,
-			"srd": true,
-			"basicRules": true,
-			"type": "TAH",
-			"rarity": "none",
-			"value": 50
-		},
-		{
-			"name": "Steel Mirror",
+			"name": "Зеркало, стальное",
 			"source": "PHB",
 			"page": 150,
 			"srd": true,
@@ -3829,7 +3434,7 @@
 			"value": 500
 		},
 		{
-			"name": "Tankard",
+			"name": "Большая кружка",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -3839,7 +3444,7 @@
 			"weight": 1,
 			"value": 2,
 			"entries": [
-				"A tankard holds 1 pint of liquid."
+				"Вместимость: 1 пинта (0,5 лит.)"
 			]
 		},
 		{
@@ -3917,7 +3522,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Three-Dragon Ante Set",
+			"name": "Ставка трех драконов",
 			"source": "PHB",
 			"page": 154,
 			"basicRules": true,
@@ -3926,7 +3531,7 @@
 			"value": 100
 		},
 		{
-			"name": "Tinderbox",
+			"name": "Трутница",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -3936,7 +3541,7 @@
 			"weight": 1,
 			"value": 50,
 			"entries": [
-				"This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch\u2014or anything else with abundant, exposed fuel\u2014takes an action. Lighting any other fire takes 1 minute."
+				"В этом небольшом контейнере находится кремень, кресало и трут (обычно это сухая тряпка, вымоченная в масле), используемые для разжигания огня. Использование его для разжигания факела — или чего-нибудь другого, легковоспламеняющегося — требует одного действия. Разжигание другого огня требует 1 минуты."
 			]
 		},
 		{
@@ -4014,7 +3619,7 @@
 			]
 		},
 		{
-			"name": "Torch",
+			"name": "Факел",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -4024,11 +3629,11 @@
 			"weight": 1,
 			"value": 1,
 			"entries": [
-				"A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage."
+				"Факел горит 1 час, испуская яркий свет в пределах 20 футов и тусклый свет в пределах ещё 20 футов. Если вы совершаете рукопашную атаку горящим факелом и попадаете, он причиняет урон огнём 1к4."
 			]
 		},
 		{
-			"name": "Totem",
+			"name": "Тотем",
 			"source": "PHB",
 			"page": 151,
 			"srd": true,
@@ -4050,436 +3655,7 @@
 			"value": 200
 		},
 		{
-			"name": "Trinket",
-			"source": "PHB",
-			"page": 159,
-			"basicRules": true,
-			"type": "G",
-			"rarity": "none",
-			"entries": [
-				"When you make your character, you can roll once on the Trinkets table to gain a trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creatures pockets.",
-				{
-					"type": "table",
-					"caption": "Player's Handbook Trinket Table",
-					"colLabels": [
-						"{@dice d100}",
-						"Trinket"
-					],
-					"colStyles": [
-						"col-1 text-center",
-						"col-11"
-					],
-					"rows": [
-						[
-							"01",
-							"A mummified goblin hand"
-						],
-						[
-							"02",
-							"A piece of crystal that faintly glows in the moonlight"
-						],
-						[
-							"03",
-							"A gold coin minted in an unknown land"
-						],
-						[
-							"04",
-							"A diary written in a language you don't know"
-						],
-						[
-							"05",
-							"A brass ring that never tarnishes"
-						],
-						[
-							"06",
-							"An old chess piece made from glass"
-						],
-						[
-							"07",
-							"A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips"
-						],
-						[
-							"08",
-							"A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it"
-						],
-						[
-							"09",
-							"A rope necklace from which dangles four mummified elf fingers"
-						],
-						[
-							"10",
-							"The deed for a parcel of land in a realm unknown to you"
-						],
-						[
-							"11",
-							"A 1-ounce block made from an unknown material"
-						],
-						[
-							"12",
-							"A small cloth doll skewered with needles"
-						],
-						[
-							"13",
-							"A tooth from an unknown beast"
-						],
-						[
-							"14",
-							"An enormous scale, perhaps from a dragon"
-						],
-						[
-							"15",
-							"A bright green feather"
-						],
-						[
-							"16",
-							"An old divination card bearing your likeness"
-						],
-						[
-							"17",
-							"A glass orb filled with moving smoke"
-						],
-						[
-							"18",
-							"A 1-pound egg with a bright red shell"
-						],
-						[
-							"19",
-							"A pipe that blows bubbles"
-						],
-						[
-							"20",
-							"A glass jar containing a weird bit of flesh floating in pickling fluid"
-						],
-						[
-							"21",
-							"A tiny gnome-crafted music box that plays a song you dimly remember from your childhood"
-						],
-						[
-							"22",
-							"A small wooden statuette of a smug halfling"
-						],
-						[
-							"23",
-							"A brass orb etched with strange runes"
-						],
-						[
-							"24",
-							"A multicolored stone disk"
-						],
-						[
-							"25",
-							"A tiny silver icon of a raven"
-						],
-						[
-							"26",
-							"A bag containing forty-seven humanoid teeth, one of which is rotten"
-						],
-						[
-							"27",
-							"A shard of obsidian that always feels warm to the touch"
-						],
-						[
-							"28",
-							"A dragon's bony talon hanging from a plain leather necklace"
-						],
-						[
-							"29",
-							"A pair of old socks"
-						],
-						[
-							"30",
-							"A blank book whose pages refuse to hold ink, chalk, graphite, or any other substance or marking"
-						],
-						[
-							"31",
-							"A silver badge in the shape of a five-pointed star"
-						],
-						[
-							"32",
-							"A knife that belonged to a relative"
-						],
-						[
-							"33",
-							"A glass vial filled with nail clippings"
-						],
-						[
-							"34",
-							"A rectangular metal device with two tiny metal cups on one end that throws sparks when wet"
-						],
-						[
-							"35",
-							"A white, sequined glove sized for a human"
-						],
-						[
-							"36",
-							"A vest with one hundred tiny pockets"
-						],
-						[
-							"37",
-							"A small, weightless stone block"
-						],
-						[
-							"38",
-							"A tiny sketch portrait of a goblin"
-						],
-						[
-							"39",
-							"An empty glass vial that smells of perfume when opened"
-						],
-						[
-							"40",
-							"A gemstone that looks like a lump of coal when examined by anyone but you"
-						],
-						[
-							"41",
-							"A scrap of cloth from an old banner"
-						],
-						[
-							"42",
-							"A rank insignia from a lost legionnaire"
-						],
-						[
-							"43",
-							"A tiny silver bell without a clapper"
-						],
-						[
-							"44",
-							"A mechanical canary inside a gnomish lamp"
-						],
-						[
-							"45",
-							"A tiny chest carved to look like it has numerous feet on the bottom"
-						],
-						[
-							"46",
-							"A dead {@creature sprite} inside a clear glass bottle"
-						],
-						[
-							"47",
-							"A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice)"
-						],
-						[
-							"48",
-							"A glass orb filled with water, in which swims a clockwork goldfish"
-						],
-						[
-							"49",
-							"A silver spoon with an 'M' engraved on the handle"
-						],
-						[
-							"50",
-							"A whistle made from gold-colored wood"
-						],
-						[
-							"51",
-							"A dead scarab beetle the size of your hand"
-						],
-						[
-							"52",
-							"Two toy soldiers, one with a missing head "
-						],
-						[
-							"53",
-							"A small box filled with different-sized buttons"
-						],
-						[
-							"54",
-							"A candle that can't be lit"
-						],
-						[
-							"55",
-							"A tiny cage with no door"
-						],
-						[
-							"56",
-							"An old key"
-						],
-						[
-							"57",
-							"An indecipherable treasure map"
-						],
-						[
-							"58",
-							"A hilt from a broken sword"
-						],
-						[
-							"59",
-							"A rabbit's foot"
-						],
-						[
-							"60",
-							"A glass eye"
-						],
-						[
-							"61",
-							"A cameo carved in the likeness of a hideous person"
-						],
-						[
-							"62",
-							"A silver skull the size of a coin"
-						],
-						[
-							"63",
-							"An alabaster mask"
-						],
-						[
-							"64",
-							"A pyramid of sticky black incense that smells very bad"
-						],
-						[
-							"65",
-							"A nightcap that, when worn, gives you pleasant dreams"
-						],
-						[
-							"66",
-							"A single caltrop made from bone"
-						],
-						[
-							"67",
-							"A gold monocle frame without the lens"
-						],
-						[
-							"68",
-							"A 1-inch cube, each side painted a different color"
-						],
-						[
-							"69",
-							"A crystal knob from a door"
-						],
-						[
-							"70",
-							"A small packet filled with pink dust"
-						],
-						[
-							"71",
-							"A fragment of a beautiful song, written as musical notes on two pieces of parchment"
-						],
-						[
-							"72",
-							"A silver teardrop earring made from a real teardrop"
-						],
-						[
-							"73",
-							"The shell of an egg painted with scenes of human misery in disturbing detail"
-						],
-						[
-							"74",
-							"A fan that, when unfolded, shows a sleeping cat"
-						],
-						[
-							"75",
-							"A set of bone pipes"
-						],
-						[
-							"76",
-							"A four-leaf clover pressed inside a book discussing manners and etiquette"
-						],
-						[
-							"77",
-							"A sheet of parchment upon which is drawn a complex mechanical contraption"
-						],
-						[
-							"78",
-							"An ornate scabbard that fits no blade you have found so far"
-						],
-						[
-							"79",
-							"An invitation to a party where a murder happened"
-						],
-						[
-							"80",
-							"A bronze pentacle with an etching of a rat's head in its center"
-						],
-						[
-							"81",
-							"A purple handkerchief embroidered with the name of a powerful {@creature archmage}"
-						],
-						[
-							"82",
-							"Half of a floorplan for a temple, castle, or some other structure"
-						],
-						[
-							"83",
-							"A bit of folded cloth that, when unfolded, turns into a stylish cap"
-						],
-						[
-							"84",
-							"A receipt of deposit at a bank in a far-flung city"
-						],
-						[
-							"85",
-							"A diary with seven missing pages"
-						],
-						[
-							"86",
-							"An empty silver snuffbox bearing an inscription on the surface that says \"dreams\""
-						],
-						[
-							"87",
-							"An iron holy symbol devoted to an unknown god"
-						],
-						[
-							"88",
-							"A book that tells the story of a legendary hero's rise and fall, with the last chapter missing"
-						],
-						[
-							"89",
-							"A vial of dragon blood"
-						],
-						[
-							"90",
-							"An ancient arrow of elven design"
-						],
-						[
-							"91",
-							"A needle that never bends"
-						],
-						[
-							"92",
-							"An ornate brooch of dwarven design"
-						],
-						[
-							"93",
-							"An empty wine bottle bearing a pretty label that says, \"The Wizard of Wines Winery, Red Dragon Crush, 331422-W\""
-						],
-						[
-							"94",
-							"A mosaic tile with a multicolored, glazed surface"
-						],
-						[
-							"95",
-							"A {@condition petrified} mouse"
-						],
-						[
-							"96",
-							"A black pirate flag adorned with a dragon's skull and crossbones"
-						],
-						[
-							"97",
-							"A tiny mechanical crab or spider that moves about when it's not being observed"
-						],
-						[
-							"98",
-							"A glass jar containing lard with a label that reads, \"Griffon Grease\""
-						],
-						[
-							"99",
-							"A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body"
-						],
-						[
-							"100",
-							"A metal urn containing the ashes of a hero"
-						]
-					]
-				}
-			],
-			"miscTags": [
-				"TT"
-			],
-			"hasFluffImages": true
-		},
-		{
-			"name": "Two-Person Tent",
+			"name": "Палатка, двухместная",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -4489,11 +3665,11 @@
 			"weight": 20,
 			"value": 200,
 			"entries": [
-				"A simple and portable canvas shelter, a tent sleeps two."
+				"В палатке, простом парусиновом жилище, могут спать двое."
 			]
 		},
 		{
-			"name": "Vial",
+			"name": "Флакон (пузырек)",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -4502,11 +3678,11 @@
 			"rarity": "none",
 			"value": 100,
 			"entries": [
-				"A vial can hold up to 4 ounces of liquid."
+				"Вместимость: 4 унции (100 грамм)"
 			]
 		},
 		{
-			"name": "Viol",
+			"name": "Виола",
 			"source": "PHB",
 			"page": 154,
 			"srd": true,
@@ -4517,7 +3693,7 @@
 			"value": 3000
 		},
 		{
-			"name": "Wagon",
+			"name": "Фургон",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -4528,7 +3704,7 @@
 			"value": 3500
 		},
 		{
-			"name": "Warhorse",
+			"name": "Боевой конь",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -4540,7 +3716,7 @@
 			"speed": 60
 		},
 		{
-			"name": "Waterskin",
+			"name": "Бурдюк",
 			"source": "PHB",
 			"page": 153,
 			"srd": true,
@@ -4548,10 +3724,10 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 5,
-			"weightNote": "(full)",
+			"weightNote": "(полный)",
 			"value": 20,
 			"entries": [
-				"A waterskin can hold up to 4 pints of liquid."
+				"Вместимость: 4 пинты (2 лит.)"
 			]
 		},
 		{
@@ -4636,7 +3812,7 @@
 			]
 		},
 		{
-			"name": "Wheat",
+			"name": "Пшеница",
 			"source": "PHB",
 			"page": 157,
 			"srd": true,
@@ -4647,7 +3823,7 @@
 			"value": 1
 		},
 		{
-			"name": "Whetstone",
+			"name": "Точильный камень",
 			"source": "PHB",
 			"page": 150,
 			"srd": true,
@@ -4745,124 +3921,6 @@
 			"rarity": "none",
 			"weight": 1,
 			"value": 1000
-		},
-		{
-			"name": "Arcane Focus",
-			"source": "PHB",
-			"page": 151,
-			"type": "SCF",
-			"scfType": "arcane",
-			"rarity": "none",
-			"focus": [
-				"Sorcerer",
-				"Warlock",
-				"Wizard"
-			],
-			"items": [
-				"Crystal|phb",
-				"Orb|phb",
-				"Rod|phb",
-				"Staff|phb",
-				"Wand|phb"
-			]
-		},
-		{
-			"name": "Artisan's Tools",
-			"source": "PHB",
-			"page": 154,
-			"srd": true,
-			"basicRules": true,
-			"type": "AT",
-			"rarity": "none",
-			"items": [
-				"Alchemist's Supplies|PHB",
-				"Brewer's Supplies|PHB",
-				"Calligrapher's Supplies|PHB",
-				"Carpenter's Tools|PHB",
-				"Cartographer's Tools|PHB",
-				"Cobbler's Tools|PHB",
-				"Cook's Utensils|PHB",
-				"Glassblower's Tools|PHB",
-				"Jeweler's Tools|PHB",
-				"Leatherworker's Tools|PHB",
-				"Mason's Tools|PHB",
-				"Painter's Supplies|PHB",
-				"Potter's Tools|PHB",
-				"Smith's Tools|PHB",
-				"Tinker's Tools|PHB",
-				"Weaver's Tools|PHB",
-				"Woodcarver's Tools|PHB"
-			]
-		},
-		{
-			"name": "Druidic Focus",
-			"source": "PHB",
-			"page": 151,
-			"type": "SCF",
-			"scfType": "druid",
-			"rarity": "none",
-			"focus": [
-				"Druid"
-			],
-			"items": [
-				"Sprig of mistletoe|phb",
-				"Totem|phb",
-				"Wooden staff|phb",
-				"Yew wand|phb"
-			]
-		},
-		{
-			"name": "Gaming Set",
-			"source": "PHB",
-			"page": 154,
-			"srd": true,
-			"basicRules": true,
-			"type": "GS",
-			"rarity": "none",
-			"items": [
-				"Dice Set|PHB",
-				"Dragonchess Set|PHB",
-				"Playing Card Set|PHB",
-				"Three-Dragon Ante Set|PHB"
-			]
-		},
-		{
-			"name": "Holy Symbol",
-			"source": "PHB",
-			"page": 151,
-			"type": "SCF",
-			"scfType": "holy",
-			"rarity": "none",
-			"focus": [
-				"Cleric",
-				"Paladin"
-			],
-			"items": [
-				"Amulet|phb",
-				"Emblem|phb",
-				"Reliquary|phb"
-			]
-		},
-		{
-			"name": "Musical Instrument",
-			"source": "PHB",
-			"page": 154,
-			"srd": true,
-			"basicRules": true,
-			"type": "INS",
-			"rarity": "none",
-			"items": [
-				"Bagpipes|PHB",
-				"Drum|PHB",
-				"Dulcimer|PHB",
-				"Flute|PHB",
-				"Horn|PHB",
-				"Lute|PHB",
-				"Lyre|PHB",
-				"Pan Flute|PHB",
-				"Shawm|PHB",
-				"Viol|PHB"
-			]
 		}
 	]
 }
